@@ -1,34 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 194, in script
-    MHBFH "did you guys see how [BULLY_MAIN] punched that [BULLY_TARGET1] from the other class? that fag deserved it. I saw his instagram. He literally freely kisses man. I almost threw up."
-KeyError: u'BULLY_MAIN'
+  File "game/script.rpy", line 325, in script
+    $ relationShipMHBFP += 1
+  File "game/script.rpy", line 325, in <module>
+    $ relationShipMHBFP += 1
+NameError: name 'relationShipMHBFP' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 194, in script
-    MHBFH "did you guys see how [BULLY_MAIN] punched that [BULLY_TARGET1] from the other class? that fag deserved it. I saw his instagram. He literally freely kisses man. I almost threw up."
-  File "renpy/ast.py", line 715, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1206, in __call__
-    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
-  File "renpy/character.py", line 1125, in prefix_suffix
-    return (sub(prefix) + sub(body) + sub(suffix))
-  File "renpy/character.py", line 1105, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "renpy/substitutions.py", line 270, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'BULLY_MAIN'
+  File "game/script.rpy", line 325, in script
+    $ relationShipMHBFP += 1
+  File "renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 325, in <module>
+    $ relationShipMHBFP += 1
+NameError: name 'relationShipMHBFP' is not defined
 
 Windows-10-10.0.19041
 Ren'Py 7.4.6.1693
 YaoiGameJam 1.0
-Thu Jul 22 01:03:24 2021
+Thu Jul 29 22:25:03 2021
