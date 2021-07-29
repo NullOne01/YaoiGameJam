@@ -1,0 +1,3 @@
+Replace regex to convert WORD text into renpy text:
+Find: \[(.+)\]: (.+)
+Replace on: $1 "$2"
