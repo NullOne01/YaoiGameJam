@@ -39,16 +39,14 @@ label sequence1:
 
     "[MHBFP] shoved me in the shoulder. The dim outline of the view from the window was replaced by the crunching sound of the opening class door."
     
+    hide semyon
+
     show semyon neutral at left 
     with move
 
-    show sergey neutral
+    show sergey neutral at center
 
     "On the threshold of a chemistry class stands [CRUSH]. Weird. He looks like he was dragged along the rails for hours and then was kicked like hundreds of times."
-
-    hide sergey neutral
-    show semyon neutral at center
-    with move
     
     MHBFP "What's that smell?"
     "[MHBFP] whispered, wrinkling his nose and turning away."
@@ -537,7 +535,7 @@ label sequence4:
             I don't think I need to show it to [CRUSH]. I'll think about this later, I suppose. Or I won't.
             """
 
-        "You have a talent for drawing":
+        "You have a talent for drawing.":
             $ relationShipCRUSH += 1
 
             MH "You have a talent for drawing. "
@@ -728,7 +726,7 @@ label sequence5:
         "Do I need to tell them about it? I can't lie to [MHBFP], but if I tell the truth [MHBFH] won't lag behind and will make me go. 
         And I realised I really don't want to. If only I made up some weird story so they would be pleased..."
 
-        "Tell the truth":
+        "Tell the truth.":
             $ relationShipMHBFP += 1
 
             MH "She helped us only because [CRUSH] promised to go on a date with her. I don't wanna participate in that shit. "
@@ -770,7 +768,7 @@ label sequence5:
 
 
             MH "I don't think so. Maybe he's just tired of you."
-        "Lie":
+        "Lie.":
             MH "There's another girl I wanna go out with. So no [NERD_GIRL]."
 
 
