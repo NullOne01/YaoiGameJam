@@ -1,40 +1,95 @@
-Sun Aug  1 21:15:01 2021
+Thu Aug 26 05:08:33 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.6.1693
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.08s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata. took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.38s
+Loading save slot metadata. took 0.18s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
+
+File "game/script.rpy", line 950: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        When I tried to reach for the window handle I accidentally stepped on my backpack and all my notebooks scattered on the floor. Fuck. 
+    
+        What's here? My maths exercise book... 
+    
+        I guess it's the messiest one. Pencil marks on the cover, ripped pages and meaningless doodles. Maths is boring, huh. 
+    
+        A school diary... Another messy thing. I don't give a fuck why does this stuff exists. 
+    
+        Huh, the draft of my chemistry test answers. 
+    
+        It was today but feels like a week ago. And [CRUSH]. 
+    
+        Oh. [NERD_GIRL]. 
+    
+        Her phone on the margin. 
+    
+        A sociable girl, I may say. 
+    
+        Ah, [MH], don't be like that. Maybe she really liked you. Couldn't she? She could. 
+    
+        At least you need to thank her. That would be polite. She helped you. 
+    
+        Or was that [CRUSH] who did? 
+    
+        It doesn't matter for now. 
+    
+        I should text her and then decide what I'll do next. 
+    
+        My fingers make proud taps on the keyboard of the phone. 
+    
+        I text her "Hey, it's [MH] from chemistry" 
+                                                   ^
+    
+        Now wait. 
+    
+        A poem. That's fucking hilarious. I hate myself for agreeing but I would do the same if I said no. So easy and so stupid. 
+    
+        I just need to write something. Even some nonsense. 
+    
+        "Beep" 
+    
+        Uh, the phone. My savior. 
+        """
+
+File "game/script.rpy", line 1258: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        I shuddered. Wait, that's not my name. But he's there. 
+    
+        I notice his dark hair among the crowd and look down. Huh. 
+    
+        His appearance here seems kind of embarrassing. For me, of course. 
+    
+        The voice that called [CRUSH] didn't sound again. 
+    
+        [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
+    
+        She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
+    
+        Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
+    
+        Even though we were friends… many years ago… I still didn't know a thing about his parents.
+    
+        Of course, this is none of our business but it could explain a lot about him. 
+    
+        He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
+    
+        Kids that were brought up by "basic" people don't do this. They may act but in fact they care. 
+                                                           ^
+    
+        And- 
+        """
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
+Interface start took 0.41s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -46,93 +101,48 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 1.40090203285s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+Total time until interface ready: 1.52559494972s
 Resetting cache.
-Bootstrap to the start of init.init took 96.00s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 97.0038709641s
-Resetting cache.
-Bootstrap to the start of init.init took 130.95s
+Bootstrap to the start of init.init took 66.61s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.10s
+Loading script took 0.16s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
+
+File "game/script.rpy", line 1258: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        I shuddered. Wait, that's not my name. But he's there. 
+    
+        I notice his dark hair among the crowd and look down. Huh. 
+    
+        His appearance here seems kind of embarrassing. For me, of course. 
+    
+        The voice that called [CRUSH] didn't sound again. 
+    
+        [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
+    
+        She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
+    
+        Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
+    
+        Even though we were friends… many years ago… I still didn't know a thing about his parents.
+    
+        Of course, this is none of our business but it could explain a lot about him. 
+    
+        He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
+    
+        Kids that were brought up by "basic" people don't do this. They may act but in fact they care. 
+                                                           ^
+    
+        And- 
+        """
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.07s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
+Interface start took 0.34s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -144,168 +154,25 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 131.824135065s
+Total time until interface ready: 67.2523610592s
 Resetting cache.
-Bootstrap to the start of init.init took 164.70s
+Bootstrap to the start of init.init took 93.51s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 165.689939022s
-Resetting cache.
-Bootstrap to the start of init.init took 193.63s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.07s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 194.507885933s
-Resetting cache.
-Bootstrap to the start of init.init took 384.89s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 385.695461035s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 593.20s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
+Loading error handling took 0.01s
 Loading script took 0.22s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
+Running init code took 0.08s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.07s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -315,10 +182,10 @@ Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.06s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.04s
@@ -333,96 +200,32 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 594.279366016s
-Resetting cache.
-Bootstrap to the start of init.init took 599.49s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
+Total time until interface ready: 94.5726511478s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 600.490378857s
-Resetting cache.
-Bootstrap to the start of init.init took 602.72s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 603.788444996s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

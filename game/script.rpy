@@ -802,5 +802,559 @@ label sequence5:
 
             Hope [TF] won't overload me with information today.
             """
+label sequence6:
+    """
+    The classroom was empty. Only the golden touches of afternoon light were on the blue wall. Posters, posters, photos... [TF] really likes this place. 
 
+    The poster of Literature Evening... It takes place every season. We come here with tea & pastry and read poems and cite our favourite books. 
+
+    It was [TF] 's idea to have it here. She likes cozy events like this. 
+
+    Maybe because she's so sweet tempered and open-minded? That's true obviously. 
+
+    Also another photo in a white frame. A class of kids in yellow caps and [TF]. I guess it's something like summer activities that are held here. 
+
+    She looks so happy. Even in this stupid cap. Does she really enjoy this or... 
+    """
+
+
+    TF "Oh, you're already here! I was at the headmaster. C'mon, take a seat. "
+
+
+    """
+    I sat on my favourite chair. Not right in front of her but a bit at the left. I sometimes feel too... I don't know. Just... 
+
+
+    It's too scary to see her eyes all the time. Like I feel I'm about to overshare. 
+
+
+    She searches for something in her bag and I sit quietly thinking. 
+    """
+
+
+    TF "No one wants to participate in things connected with art now. It was really hard to find even one person. I also went to the 10th grade and some girls wanted to attend the contest. "
+
+    TF "I don't know if they still want to do it but... Let's just do what we can, right? "
+
+
+    """
+    She finally found what she wanted and it appeared to be her notebook. A real legend. She uses paper for notes, not apps for phone or anything like that. 
+
+
+    I would go nuts if I did it. Plus my handwriting is mindblowingly awful. 
+    """
+
+
+    TF "Okay, so... The contest is planned to be in two weeks. You need to write a poem from 3 to 10 verses of four lines. No rules for lines. "
+
+    TF "That's it. We will have a contest in our school, you'll need to read it out loud. After your performance, Jury members will take your poem and read it by themselves. That's all. "
+
+    MH "Will there be places or winners? "
+
+    TF "No. You'll anyway get the certificate of participation. Still we need to do our best, you know? "
+
+    MH "Yeah, got it. "
+
+    TF "You always know you can contact me if you need some help, right? "
+
+    MH "Aha. "
+
+    "She keeps silence for half a second. I felt a bit strange."
+
+    TF "You act uptied these days, [MH]. Is everything fine? "
+
+    TF "I know you may be busy. You're in the last year of studying, you have exams, but this contest is really important. I don't know whom to ask but you. "
+
+    MH "No, I know, no problem about the contest. It's... I don't know. "
+
+    TF "Is something bothering you? "
+
+    MH "I feel like... something wrong is happening. With me. I always dive into my memories. "
+
+    TF "Do you regret doing something or you just want to go back? "
+
+    MH "Neither. "
+
+    MH "I just... remember. Then I feel like I've lost something in the past and that I'll never find it anymore. "
+
+    TF "Hmm. "
+
+    "She stood up and went to the cabinet. Then a kettle and two pink mugs appeared on the table." 
+
+    TF "A little cup of tea is always a nice decision, right? "
+
+
+    """
+    I nodded. After some noise of the old kettle I felt the smell of tea leaves. 
+
+    [TF] always makes tea when we sit here talking about everything starting with school subjects and finishing with philosophy. 
+
+    [TF] took her mug and sat, holding her palms round the hot surface. 
+    """
+
+
+    TF "It happens. Sometimes you think about the past as something from a different life and want to go back to those innocent times. You just don't remember pain. "
+
+    TF "There was pain and bad feelings. We all tend to forget about it. Our brain just pushes it away from our consciousness so we won't be traumatized. "
+
+    TF "The thing is that our past is still us. That's the part of us that forms our character. Sometimes we should let it go. "
+
+    TF "Everything changes. The faster you get this the better. Let it go. Concentrate on your present-self. That's the only thing you're in charge of. "
+
+
+    """
+    I sat looking into the depth of the mug. Gosh, she really wants to support me. As always does. 
+
+    This softens me. May I just stay here for eternity? 
+    """
+
+
+    MH "Yeah... I need to understand that things have changed and they won't go back. Even if that's painful. "
+
+    TF "Right! "
+
+    TF "Pain will go away one day but you'll stay here. As they say, easy come easy go. Cookies? "
+
+    MH "Yes please. "
+
+    """
+    I really feel much better. The first thing is that I've told somebody about my feelings and finally let them out of my chest. 
+
+    The second thing is that I understood I need to think about [CRUSH] as somebody new. 
+
+    Not as about my old friend from teenagerhood, but as a 18 years old guy with his new life. 
+
+    It sometimes amazes me how [TF] can help with literally everything and to give nice advice. To be honest I hate advice from everyone but not from her. 
+
+    Maybe I just overthink?..
+    """
+
+label sequence7:
+    """
+    I spent the whole evening thinking about my poem for the contest. And I haven't written a single line. 
+
+    My brain hurts. 
+
+    Maybe it's just too hard for me but who am I without hardship? 
+
+    Calm me. 
+
+    Okay, don't think about the bad side. It's only a small contest, [MH]. Only. A. Small. Contest. 
+
+    I may open the window. I guess it's all because there's no fresh air in the room. 
+    """
+
+
+    MH "Fuck!"
+
+    """
+    When I tried to reach for the window handle I accidentally stepped on my backpack and all my notebooks scattered on the floor. Fuck. 
+
+    What's here? My maths exercise book... 
+
+    I guess it's the messiest one. Pencil marks on the cover, ripped pages and meaningless doodles. Maths is boring, huh. 
+
+    A school diary... Another messy thing. I don't give a fuck why does this stuff exists. 
+
+    Huh, the draft of my chemistry test answers. 
+
+    It was today but feels like a week ago. And [CRUSH]. 
+
+    Oh. [NERD_GIRL]. 
+
+    Her phone on the margin. 
+
+    A sociable girl, I may say. 
+
+    Ah, [MH], don't be like that. Maybe she really liked you. Couldn't she? She could. 
+
+    At least you need to thank her. That would be polite. She helped you. 
+
+    Or was that [CRUSH] who did? 
+
+    It doesn't matter for now. 
+
+    I should text her and then decide what I'll do next. 
+
+    My fingers make proud taps on the keyboard of the phone. 
+
+    I text her \"Hey, it's [MH] from chemistry\" 
+
+    Now wait. 
+
+    A poem. That's fucking hilarious. I hate myself for agreeing but I would do the same if I said no. So easy and so stupid. 
+
+    I just need to write something. Even some nonsense. 
+
+    \"Beep\" 
+
+    Uh, the phone. My savior. 
+    """
+
+
+    NERD_GIRL " \"Hi\" "
+
+    NERD_GIRL " \"Yes, I remember you :)\" "
+    
+    "And what should I answer? "
+
+    "Firstly, I wanted to thank her. "
+
+    MH " \"Thanks for your help. You hella saved my life\" "
+
+    NERD_GIRL " \"Haha I'm glad to help\" "
+
+    "Then what? I forgot how to chat with strangers." 
+
+    "She texts something. "
+
+    NERD_GIRL " \"Listen, I'm with [CRUSH] now. He wanted to talk to you but he didn't have your number\" "
+
+    NERD_GIRL " \"I wanted to ask you if you allow to share your number\" "
+
+    "[CRUSH]? What does he want from me? "
+
+    MH " \"Um.. ok\" "
+
+    NERD_GIRL " \"Nice :3\" "
+
+    NERD_GIRL " \"Hope to see you at school ASAP!\" "
+
+    "Oh. She is a sociable girl but I still have questions for [CRUSH]. "
+
+    "I guess he'll answer when he texts me. Now I should do something more valuable. "
+
+    "Like trying to know what's wrong with [MHBFP]. "
+
+    "I put on my favourite sneakers and a phone with headphones. The best way to make him happy is to make a surprise."
+
+    if relationShipMHBFP >= 2:
+        """
+        I should take a cake with me! [MHBFP] likes them so much and it'll definitely make him pleased as hell. 
+
+        Happily my mom always has at least one cake in the fridge in case somebody comes or whatever. I must say it helps from time to time. 
+
+        He likes strawberry shortcakes and vanilla cupcakes. I know, that's not classy but... 
+
+        Kinda cute, right? 
+
+        Even if I don't know what's happening with him there are certain things I always do to cheer him up. 
+
+        And I am worried.
+        """
+
+    """
+    The weather isn't that nice, to be honest. Only low greyish cumulus and fresh cool wind that runs around my ankles. 
+
+    Rain, pretty please, I beg you, do not start. My thin hoodie won't survive. 
+
+    Thankfully we're neighbours with [MHBFP] so it only takes like ten minutes to reach for his flat building. 
+
+    I remember the times we were young and played here together. Rode on that old swing with cracked handrails, run everywhere playing hide-and-seek. 
+
+    Once he fell when running away from me and hurt his knee. There was much blood all around his leg and he was crying so loud. 
+
+    We're the same age but I acted like a real adult. I took him and we went to his mom to disinfect the wound. 
+
+    I didn't remember that but his mum told me I tried to calm [MHBFP] down by telling him jokes and fairy tales about dwarfs. 
+
+    I'm here. Two knocks and I hear the sound of the door being opened. 
+
+    He's in a stretched T-shirt with stains and his face looks like... he cried. 
+    """
+
+    MH "[MHBFP], I- "
+
+    MHBFP "What happened? "
+
+    MH "I just came to cheer you up, dude."
+
+    if relationShipMHBFP >= 2:
+        MH "I have something for you. "
+
+        "I hold out a box of cake. "
+
+        MHBFP "Oh... "
+
+        """
+        He takes it and I feel the warmth of his thin hands. 
+
+        Even if it's cold outside and it's the middle of the winter, even if it's the coolest fall, even if it's snowing like hell. 
+
+        His hands are warm. 
+
+        He smiles a bit. 
+        """
+
+        MHBFP "Thank you... Come in. I'll put the kettle on. "
+
+        """
+        It always smells like this here. Like... old newspapers, aloe, pastry. And something undetectable but in general it feels cozy and warm. 
+
+        Like his hands. 
+
+        Okay, calm down. 
+        """
+
+        MH "[TF] made me participate in a new contest. Of poetry. "
+
+        MHBFP "Really? I didn't know you write poems. "
+
+        MH "Yeah, the same. And now I do. "
+
+        MHBFP "You do so much for her. "
+
+        "I come to the kitchen. [MHBFP] takes out two big mugs and tea bags from the cabinet. "
+
+        MH "She told me nobody wants to do this now. What's connected with literature, I mean. "
+
+        MHBFP "And you want to? "
+
+        MH "I don't know, really. I messed up but for now I need to do what I need. "
+
+        MH "Now you. "
+
+        MH "You overslept today. "
+
+        MHBFP "So what? "
+
+        MH "Don't act like this! You NEVER oversleep. You literally have fifteen alarms. For every day. "
+
+        "He chuckles and sits back. Now I see how fucking tired he is." 
+
+        MHBFP "I... You don't have to worry, okay? It's fine. Trust me. Just regular problems. I need to solve them by myself. "
+
+        MH "You know, you can always ask me if you need help. "
+
+        MHBFP "Yes. "
+
+        "It doesn't seem well. He doesn't seem well but he asked to trust him. How can I do this if he's like a walking dead?" 
+
+        menu:
+            "Should I insist?"
+
+            "Insist.":
+                $ relationShipMHBFP -= 1
+                MH "You can tell me. Please, do, [MHBFP]. It's not okay. I will help. You must tell me what's happening. "
+
+                "His face tensed and [MHBFP] pursed his lips. "
+
+                MHBFP "Stop this. For God's sake. "
+
+                MH "But... "
+
+                MHBFP "Do not make me do what I'll regret later. I’ve already said everything you need. I will solve everything. "
+
+                MH "Okay, jeez, okay. You got this. Let's better change the topic. "
+
+                MHBFP "I'm dying to eat the cake. Shut up for a second, let me enjoy. "
+
+                MH "Haha, fine. I will. After I tell you about the show I spent the whole night watching. So... "
+
+                MHBFP "Oh no."
+
+            "Do not insist.":
+                $ relationShipMHBFP += 2
+                MH "Fine. I trust you. "
+
+                "He tilted his head down but I still noticed the little smile. "
+
+                MH "Now better try the cake. It's a blessing it was in the fridge. "
+
+                MHBFP "Uh, your mum is so prudent. A real hero. "
+
+                MH "And I can't even calculate how long my chewing gum will last. "
+
+                MHBFP "That's cute. "
+
+                MH "Oh really? It's clumsy, don't try to calm me down. "
+
+                MHBFP "I will. C'mon, you're a teen. It'll change. "
+
+                MH "I'll always be like this. Some things don't change. "
+
+                MHBFP "Why are you so sure? Everything changes. People change when they get older. "
+
+                MH "I just feel that it's me. I mean... "
+
+                MHBFP "What? "
+
+                MH "That's a part of my character. To be clumsy. Also lonely, pathetic, et cétéra. "
+
+                "[MHBFP] giggled for a second and I felt... strange. "
+
+                MH "Why do you laugh? "
+
+                MHBFP "You're so lost. Don't be tricked by the stigma they give you. "
+
+                MHBFP "You aren't clumsy, lonely, pathetic or whatever. You're more than all this stuff. "
+
+                MHBFP "Ah, that's weird. And awkward... I only hope you got this. "
+
+                "I lowered my eyes to the floor, to my fancy socks with frogs. Oh god, we never talked like this before. "
+
+                MH "Yeah. Right. "
+
+                MH "Thank you. "
+
+                "He didn't answer. Just noticed the sound of boiling water and spilled it into mugs."
+
+    if relationShipMHBFP < 2:
+        MHBFP "Huh. Nice. "
+
+        MH "I'm not a dumbass, [MHBFP]. I have eyes. And the brain. Something is happening with you and you must tell me everything. "
+
+        MHBFP "Yeah, of course, I must. "
+
+        MHBFP "I do not owe you anything. Do you even hear yourself? You never cared. And now you come here and say I must do something. "
+
+        MH "Okay, I'm sorry. I'm really sorry. I just want to help. That's why I'm here. "
+
+        MHBFP "You want to help? Amazing. I don't need your help. Go away. "
+
+        MH "[MHBFP], please... "
+
+        MHBFP "I need to stay by myself. Go home. "
+
+        MH "I won't. I'm just... you act weird. You've never acted like this before. I'm worried. I want to make sure you're alright. Only this. "
+
+        MHBFP "I'm fine, okay? Go home. I need to go. Goodbye. "
+
+        "He closes the door right in front of me. "
+
+        "He's right. I need to go home before I break this fucking door to hell."
+
+label sequence8:
+    """
+    On the next day [MHBFP] didn't show up at school. I've decided not to bother him. 
+
+    I really had much to think about like... [CRUSH]. He asked Angelina for my number. 
+
+    But for what? 
+
+    There's so many people around me. This hall is always so crowded like they don't have another place to stay around. 
+
+    However, for now I can't leave. The physics classroom is here and I just want to come into it as soon as possible. 
+
+    I take out my diary. 
+
+    At least I have some time to work on my poem. Maybe this noise will somehow inspire me. 
+
+    Even if I can't hear my own thoughts. 
+
+    I don't like to deepen into my mind. It's too overwhelming and it just feels wrong. 
+
+    If you don't concentrate on your feelings it's way easier to overcome them. 
+
+    Especially if these feelings aren't important. 
+
+    And I still have no idea how to write this fucking poem. 
+
+    Pathetic. 
+    """
+
+    "Unknown" "Hey, [CRUSH]!" 
+
+    """
+    I shuddered. Wait, that's not my name. But he's there. 
+
+    I notice his dark hair among the crowd and look down. Huh. 
+
+    His appearance here seems kind of embarrassing. For me, of course. 
+
+    The voice that called [CRUSH] didn't sound again. 
+
+    [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
+
+    She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
+
+    Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
+
+    Even though we were friends… many years ago… I still didn't know a thing about his parents.
+
+    Of course, this is none of our business but it could explain a lot about him. 
+
+    He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
+
+    Kids that were brought up by \"basic\" people don't do this. They may act but in fact they care. 
+
+    And- 
+    """
+
+    CRUSH "Howdy. What're you writing? "
+
+    """
+    Oh. 
+
+    The sudden discharge embraced my whole body and I dropped my diary. Fuck. 
+
+    I just leaned down to take it and accidentally felt that he had leaned down too. 
+
+    We collide with our hands for a couple of seconds and I automatically pull back mine. 
+    """
+
+    CRUSH "You're so easy to scare. Um, sorry, by the way. "
+
+    MH "Oh no, it's not your fault. Thanks. "
+
+    CRUSH "I hope [NERD_GIRL] didn't startle you with me asking for your number. "
+
+    MH "Uh, no, but it's still bizarre. "
+
+    CRUSH "I just wanted to... We'll have a small party with my friends next week, Sunday, to be precise. So I wanted you to come too. "
+
+    CRUSH "Like you know, we were friends for so many years before. Why not? "
+
+    "I felt my eyebrows raise even if I tried to act like there's nothing strange in his behaviour. "
+
+    MH "Okay... Let it be. "
+
+    CRUSH "Alright then. Later. "
+
+    """
+    He disappeared as fast as came into sight. Oh. 
+
+    That's pretty... strange. His offer. 
+
+    [MHBFP] could be mad, huh.
+    """
+
+    if relationShipMHBFP >= 4:
+        """
+        I should tell him. 
+
+        Even if [CRUSH] seems to be fine and that stuff it's still not okay. [MHBFP] has a right to know. 
+
+        Maybe it'll make him sad but what can I do? 
+
+        Still there's something bothering me. I can't say I refuse to go. 
+
+        I know it sounds bad but I just can't sleep on that feeling. 
+        """
+        menu:
+            "Should I go to that party?"
+
+            "Yes.":
+                $ relationShipMHBFP -= 4
+            "No.":
+                jump endingGoodMHBFP
+
+    """
+    However, that's not what I should worry about. 
+
+    The noise quited down after the bell rang. I thought I needed to go to physics class. 
+
+    [CRUSH] washed away my thoughts about the poem contest and physics and... 
+
+    He just did. 
+
+    I need to go.
+    """
+
+    return
+
+
+# ENDINGS:
+label endingGoodMHBFP:
+    "GOOD ENDING MHBFP"
     return

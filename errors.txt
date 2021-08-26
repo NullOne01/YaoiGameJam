@@ -2,9 +2,34 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 431: expected statement.
-    [CRUSH] mildly smiled. 
-                         ^
+File "game/script.rpy", line 1258: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        I shuddered. Wait, that's not my name. But he's there. 
+    
+        I notice his dark hair among the crowd and look down. Huh. 
+    
+        His appearance here seems kind of embarrassing. For me, of course. 
+    
+        The voice that called [CRUSH] didn't sound again. 
+    
+        [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
+    
+        She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
+    
+        Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
+    
+        Even though we were friends… many years ago… I still didn't know a thing about his parents.
+    
+        Of course, this is none of our business but it could explain a lot about him. 
+    
+        He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
+    
+        Kids that were brought up by "basic" people don't do this. They may act but in fact they care. 
+                                                           ^
+    
+        And- 
+        """
 
 Ren'Py Version: Ren'Py 7.4.6.1693
-Thu Jul 29 23:32:24 2021
+Thu Aug 26 05:09:39 2021
