@@ -1,171 +1,18 @@
-Thu Aug 26 05:08:33 2021
+Sat Aug 28 03:46:54 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.6.1693
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.04s
+Loading error handling took 0.02s
 Loading script took 0.38s
-Loading save slot metadata. took 0.18s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 950: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-        When I tried to reach for the window handle I accidentally stepped on my backpack and all my notebooks scattered on the floor. Fuck. 
-    
-        What's here? My maths exercise book... 
-    
-        I guess it's the messiest one. Pencil marks on the cover, ripped pages and meaningless doodles. Maths is boring, huh. 
-    
-        A school diary... Another messy thing. I don't give a fuck why does this stuff exists. 
-    
-        Huh, the draft of my chemistry test answers. 
-    
-        It was today but feels like a week ago. And [CRUSH]. 
-    
-        Oh. [NERD_GIRL]. 
-    
-        Her phone on the margin. 
-    
-        A sociable girl, I may say. 
-    
-        Ah, [MH], don't be like that. Maybe she really liked you. Couldn't she? She could. 
-    
-        At least you need to thank her. That would be polite. She helped you. 
-    
-        Or was that [CRUSH] who did? 
-    
-        It doesn't matter for now. 
-    
-        I should text her and then decide what I'll do next. 
-    
-        My fingers make proud taps on the keyboard of the phone. 
-    
-        I text her "Hey, it's [MH] from chemistry" 
-                                                   ^
-    
-        Now wait. 
-    
-        A poem. That's fucking hilarious. I hate myself for agreeing but I would do the same if I said no. So easy and so stupid. 
-    
-        I just need to write something. Even some nonsense. 
-    
-        "Beep" 
-    
-        Uh, the phone. My savior. 
-        """
-
-File "game/script.rpy", line 1258: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-        I shuddered. Wait, that's not my name. But he's there. 
-    
-        I notice his dark hair among the crowd and look down. Huh. 
-    
-        His appearance here seems kind of embarrassing. For me, of course. 
-    
-        The voice that called [CRUSH] didn't sound again. 
-    
-        [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
-    
-        She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
-    
-        Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
-    
-        Even though we were friends… many years ago… I still didn't know a thing about his parents.
-    
-        Of course, this is none of our business but it could explain a lot about him. 
-    
-        He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
-    
-        Kids that were brought up by "basic" people don't do this. They may act but in fact they care. 
-                                                           ^
-    
-        And- 
-        """
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.41s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 1.52559494972s
-Resetting cache.
-Bootstrap to the start of init.init took 66.61s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.16s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 1258: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-        I shuddered. Wait, that's not my name. But he's there. 
-    
-        I notice his dark hair among the crowd and look down. Huh. 
-    
-        His appearance here seems kind of embarrassing. For me, of course. 
-    
-        The voice that called [CRUSH] didn't sound again. 
-    
-        [CRUSH] came to school one more time? He does it so rarely it feels like a blessing for our poor headmaster. 
-    
-        She wanted to deduct him for three times but something stopped her. Maybe it's 'cause he acted like a normal student for a week when there were signs they wanted to deduct him. 
-    
-        Maybe it's 'cause of his parents. We don't know who they are but it seems this type of a son is always brought up by a special type of parents. 
-    
-        Even though we were friends… many years ago… I still didn't know a thing about his parents.
-    
-        Of course, this is none of our business but it could explain a lot about him. 
-    
-        He acts like he doesn't care and the thing is that.. maybe he really doesn't care? 
-    
-        Kids that were brought up by "basic" people don't do this. They may act but in fact they care. 
-                                                           ^
-    
-        And- 
-        """
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 465.89'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Total time until interface ready: 67.2523610592s
-Resetting cache.
-Bootstrap to the start of init.init took 93.51s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.22s
-Loading save slot metadata. took 0.02s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.04s
+Running init code took 0.05s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
@@ -176,19 +23,19 @@ Initial gc. took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
+Creating interface object took 0.32s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.06s
-Prepare screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.04s
+Interface start took 0.12s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -200,32 +47,83 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 94.5726511478s
+Total time until interface ready: 1.7459359169s
+
+Full traceback:
+  File "game/script.rpy", line 1509, in script
+    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
+  File "renpy/ast.py", line 715, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1206, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "renpy/character.py", line 1125, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "renpy/character.py", line 1105, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "renpy/substitutions.py", line 270, in substitute
+    s = formatter.vformat(s, (), kwargs)
+  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 563, in vformat
+  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 585, in _vformat
+  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 646, in get_field
+  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 605, in get_value
+KeyError: u'CHEMISTRY_TEACHER'
+
+While running game code:
+  File "game/script.rpy", line 1509, in script
+    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
+KeyError: u'CHEMISTRY_TEACHER'
+Resetting cache.
+Bootstrap to the start of init.init took 114.40s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.30s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 465.89'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 115.483018875s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.08s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s

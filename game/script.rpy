@@ -17,6 +17,7 @@ define MHBFH = Character("Vladick", image = "vladick")
 define CRUSH = Character("Sergey", image = "sergey")
 
 define BULLY_MAIN = Character("Bully main")
+define BULLY_SECOND = Character("Bully second")
 define BULLY_TARGET1 = Character("Bully target 1")
 
 define NERD_GIRL = Character("Angelina")
@@ -1351,6 +1352,576 @@ label sequence8:
     I need to go.
     """
 
+label sequence9:
+    """
+    It seemed too cold when I went outside wearing only some skinny jeans but [MHBFH] was already here. I got no chance to change and at the same time I was too tired to do that. 
+
+    He was smiling and the warm orange light from the street lamp was making his blonde hair look like a tangerine. 
+
+    Some tiny snowflakes are falling on my nose. 
+
+    Huh. 
+    """
+
+    MHBFH "Five minutes late. "
+
+    """
+    I said nothing but it didn't feel like I needed to answer. 
+
+    [MHBFH] doesn't really nag even if it feels that he might be. Just... he takes everything easy. 
+
+    We're on the way to the party [MHBFH] talked about. 
+
+    And [MHBFP] isn't with us. 
+
+    Would he go if he was free? I don't think so. 
+
+    He's not that guy. 
+
+    He doesn't even like alcohol and I ain't got an idea why he can get up with [MHBFH]. 
+
+    Who's definitely a humanisation of A Party. 
+
+    Like... that much. He can't live without all that hustle and bustle. 
+
+    He talks bout some shit but I can't concentrate on listening. Moreover, he doesn't really need me to comment on what he's talking bout. 
+
+    I look on the snowy pavement. 
+
+    These days were over the top. 
+
+    Maybe it's a blessing? 
+
+    I got so much to feel, to discover, to know. 
+
+    Even though it's overwhelming as fuck. 
+
+    Time just gets away when you overthink. 
+
+    We finally came to the big tower block building. Wet grey walls of it seemed so pathetic to be real. 
+
+    I can't say I hate all that stuff that surrounds me. It's somehow inspiring from time to time. All those greyish buildings, halls with dark green walls peeling off. 
+
+    Bumpy roads. 
+
+    Stray dogs. 
+
+    We climb the stairs to the fifth level. I accidentally step on a thin spider slowly running through my way. 
+
+    [MHBFH], anyway, acts too happy for this surrounding. With his bright hair he looks like a sun beam. 
+
+    And I look like a moon. 
+
+    Huh. Drama queen. 
+
+    I look like a drug addict, to be honest. 
+
+    [MHBFH] doesn't hear my depressive thoughts and opens the dark scarlet door. 
+
+    It's not closed? Seems like they're fearless. 
+
+    The first things I notice are amber light and cigarette smoke. Everywhere. And five of like six persons. 
+
+    [MHBFH] goes deeper into the flat but I stay to explore it a bit. 
+
+    It's actually quite a big room with two doors. One of them leads to the kitchen, another is closed. Maybe it's a WC but why is it closed then? 
+
+    I don't know who designed this flat but they certainly did an awful job. 
+
+    Like... who thought olive walls would go well with pinkish kitchen cabinets or a black couch? 
+
+    I notice only stranger's faces here, they seem to be my age. And... drinking. 
+
+    I suddenly step on a small puddle on the linoleum. 
+
+    Oh god, please, let it be beer... 
+    """
+
+    "Somebody" "[MH]?" 
+
+    "I fastly straightened up from examining my poor sneakers and it appeared that the voice was [NERD_GIRL]."
+
+    NERD_GIRL "Oh, you're here! "
+
+    MH "Um, yes... "
+
+    NERD_GIRL "I've never seen you there! "
+
+    
+    "So, she often goes there. Not an excellent student anymore. "
+
+    "But who am I to judge? "
+
+
+    MH "Yeah, I'm new there. I came with [MHBFH], actually. "
+
+
+    NERD_GIRL "I see. [MHBFH] is... that blonde guy? With a red tie? "
+
+
+    MH "Yeah. He loves it. His father's gift. "
+
+
+    NERD_GIRL "Jeez. "
+
+
+    MH "Uh? "
+
+
+    NERD_GIRL "I thought no one wears ties now. Especially red ones. "
+
+
+    MH "He just does what he likes. "
+
+
+    NERD_GIRL "Yep, right. Sorry. "
+
+
+    "I only shrug my shoulders in answer. "
+
+
+    NERD_GIRL "So, let me treat you with this cider. "
+
+    """
+    She gave me a little transparent plastic glass with an ocher drink in it. 
+
+    It's too sweet but I didn't pay for it. I have no right to criticize. 
+
+    [NERD_GIRL] drank a glass too. It didn't seem like she tried something before I had come. Acted like a fully sober girl. 
+    """
+
+    MH "You know somebody there? "
+
+    "[NERD_GIRL] looked around and nodded. "
+
+    NERD_GIRL "Sure. And it seems like you do not know. "
+
+    "I chuckled. "
+
+    MH "Right. I only know [MHBFH]. "
+
+    NERD_GIRL "So these two guys near the window are [BULLY_MAIN] and [BULLY_SECOND]. They are from the \"B\" foam. "
+
+    NERD_GIRL "I don't talk with them much, we... have nothing in common, frankly saying. "
+
+    NERD_GIRL "These three girls are from my foam. You'll anyway forget their names, so... "
+
+    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [TEACHER_CHEMISTRY]. "
+
+    MH "Really? I didn't know she had a son. "
+
+    NERD_GIRL "He's quite a bizarre person. Too... spoiled, I should say. "
+
+    MH "No wonder. "
+
+    NERD_GIRL "Oh, the couch is free. C'mon, let's sit, my legs hurt. "
+
+    NERD_GIRL "I spent the whole afternoon running around with books at the library. [TF] asked me to help her with arranging her bookcase. "
+
+    MH "[TF]? "
+
+    NERD_GIRL "Yes... Our literature teacher. You know her? "
+
+    MH "Surely. "
+
+    MH "Yeah, she was my teacher for many years. "
+
+    NERD_GIRL "She's amazing. "
+
+    MH "For sure... "
+
+
+    "She frowned for a second. "
+
+
+    NERD_GIRL "Huh, are you okay? You sound weird. "
+
+
+    MH "No, no, I'm fine. Just... Nothing. "
+
+
+    """
+    I take a new glass with cider and let myself chill a bit. 
+
+    She talks to me about some stuff like these three girls whose names I still don't know or that son of the chemistry teacher. 
+
+    The alcohol starts to affect. 
+
+    Oh god, I didn't eat anything before drinking. 
+
+    My mistake. I'll pay for it. 
+
+    But [NERD_GIRL] looks as fresh as a daisy. Like she drank only pure water. 
+
+    Fuck, I hate it. 
+
+    The lights begin to mess but just a bit. [NERD_GIRL] sits closer and closer while I recline on the couch trying to go back to this world. 
+
+    I only feel her warmness and the smell of cider and her perfume. 
+
+    It's too sweet and... smells like flowers. 
+
+    Doesn't match her character. 
+
+    She's kinda spicy. 
+
+    I feel that when she leans closer and closer to my cheek. 
+
+    Holy shit. 
+
+    She wants to kiss me. 
+
+    I realise that three seconds before she does that. I move away heavily breathing. 
+
+    Her face doesn't reflect anything. Like she doesn't feel disappointment or shame because of her failed attempt. 
+
+    I would. 
+
+    I scarcely stand up and she doesn't even move for a bit to help me. I don't need that, actually, but it seems like [NERD_GIRL] wouldn't even care if I fall right here. 
+
+    Wait. 
+
+    Hold on. 
+
+    Breathe in. 
+
+    Breathe out. 
+
+    [MH], you need to calm down. 
+
+    Let's clear my mind. There was a balcony in the kitchen. 
+
+    My steps are hesitant but I don't stop. 
+
+    Please, [NERD_GIRL], go out of my head. It hurts like hell. 
+
+    I don't notice anyone around... There's just a whole mess in my mind. 
+
+    I noticed somebody on the balcony for too late. And I hold my breath. 
+    """
+
+
+    MH "[CRUSH]? "
+
+
+    "He turns his head to me for a second. "
+
+    "I never noticed how good black hair looks in the light of the moon and stars. Like a miracle. "
+
+
+    CRUSH "What in a world. "
+
+    """
+    And then I see a whitish line of smoke for a cigarette between his fingers. 
+
+    Don't wanna sound dramatic but it looks like a painting. 
+
+    Him in a moonlight, under the starry sky, with a thin cigarette. 
+    """
+
+    MH "I didn't know you're there. "
+
+
+    CRUSH "Same. "
+
+
+    CRUSH "I never left this balcony. No wonder. "
+
+
+    MH "Why? "
+
+
+    "I come closer to see his face and lean on the cold railing. "
+
+
+    CRUSH "It's better there. Fresh air, all that stuff. "
+
+
+    MH "But you smoke... "
+
+
+    CRUSH "Thank you, Captain Hindsight. "
+
+
+    MH "It's still illogical. "
+
+
+    CRUSH "And you like to find logic everywhere, even where you're not asked to? "
+
+
+    "I humed something but [CRUSH] was right. "
+
+
+    MH "Just wanna understand you. "
+
+
+    CRUSH "By asking stupid questions? Oh no. "
+
+
+    MH "Don't act like you don't get what I am talking about. "
+
+
+    MH "We both know it's strange. "
+
+
+    MH "To talk after all these years. We didn't even say hello to each other. "
+
+
+    MH "We acted like complete strangers. You didn't care if I felt lonely or left, I did the same. "
+
+
+    MH "I still don't know why and for what. "
+
+
+    MH "And let me tell you, you started that many years ago. "
+
+
+    MH "But now you start to talk, you search for my number, you ask me to go to the night with your friends. "
+
+
+    MH "Why? "
+
+
+    """
+    I felt devastated after saying that. Like I let all the thoughts out. All the thoughts that bothered me, that interrupted my calm life and my ability to do everyday tasks. 
+
+    And he keeps silent. After all that. 
+
+    Fuck, I only want him to understand what I feel. What I felt for these years. 
+
+    Even if that subsided for the last years I spent with [MHBFH] and [MHBFP]. 
+
+    We were so close. And we separated as fast as we had found each other. 
+    """
+
+
+    CRUSH "Little did I know what I would do now when I was younger. "
+
+
+    CRUSH "I'm sorry. "
+
+
+    CRUSH "I don't have a right to say thay, I know, but... I feel so sorry we splitted up. "
+
+
+    CRUSH "Then I felt I needed to do that to become somebody cooler. To find cool friends. "
+
+
+    CRUSH "To become... I don't know whom. "
+
+
+    CRUSH "It felt like I needed to change what surrounds me to change myself. "
+
+
+    CRUSH "It worked. You see it did. "
+
+
+    CRUSH "But... Am I pleased with what I have done? Am I fine? "
+
+
+    CRUSH "That's why I am sorry. "
+
+
+    """
+    I was so astonished I couldn't even say a word. 
+
+    [CRUSH] was watching the dark street under the balcony. 
+
+    It's cold here. 
+
+    Not freezing but it gave me goosebumps. 
+
+    [CRUSH] seemed to be okay with this temperature. He standed like a statue, only his hand moved so he could take a hit off. 
+    """
+
+
+    CRUSH "She's sometimes too clingy. "
+
+    "I raised my eyebrows. "
+
+    MH "Who? "
+
+    CRUSH "[NERD_GIRL]. I saw you and her. "
+
+    "It seemed I needed to be shocked or just surprised but I only felt some unknown urge to laugh. "
+
+    MH "You're right though. "
+
+    MH "I didn't know she's like... this. I thought she is like a straight-A student that has nothing to do with parties or cider. "
+
+    CRUSH "You condemn her? "
+
+    MH "No, of course. I'm just... surprised. "
+
+    CRUSH "Not all people are like there's nothing behind them. Even if you think so. "
+
+    MH "And you think you know her? "
+
+    CRUSH "No. We just went out one time. It was her wish for helping me with chemistry. "
+
+    CRUSH "Happily she haven't done the same with you "
+
+    MH "Because I'm just weird. "
+
+    CRUSH "She still tried to kiss you. "
+
+    MH "She's drunk. "
+
+    CRUSH "Jeez, you better stop. Don't act stupid. "
+
+    MH "And you just don't know what's on my mind! Maybe... maybe I have wanted her to ask me out. "
+
+    "[CRUSH] chuckled. "
+
+    CRUSH "For real? "
+
+    MH "It doesn't matter. "
+
+    CRUSH "It does. "
+
+    CRUSH "There are much better girls than [NERD_GIRL]. If you haven't fallen in love with her already, of course. "
+
+    "I winced unconsciously."
+
+    MH "No... Obviously no. "
+
+    CRUSH "Then what's the point? "
+
+    CRUSH "If you love somebody, act like this. If you don't — do not show this pathetic performance. "
+
+    MH "I don't. "
+
+
+    """
+    [CRUSH] took a pause to drag on. 
+
+    I feel that the air is purging my soul. The alcohol effect is certainly reducing and I can clearly see and think. 
+
+    Time flies there. 
+
+    It's so cold yet I stand close to [CRUSH] and feel his warmth. He doesn't look cozy at all but it feels like everything is like it has to be. 
+
+    That's what you feel at home. 
+
+    The memories of our past are pouring back so fast that my feet almost gave way under me. 
+
+    Summers with shiny cola bottles with glittery water drops on it, old creaking bikes, dirty sneaks. 
+
+    Falls under the sad sun trying to get into the classroom where we play tic-tac-toe on the last desk. 
+
+    Winters, wet mittens, wet backpacks, that we left on the ground when playing catch up. 
+
+    Springs. Fresh smell of acacia trees. And him, standing on the sandy riverbank, looking at the glossy water surface. 
+
+    Feels like a different life. 
+
+    I look at him to find at least something connecting the old [CRUSH] to his newer... version. 
+
+    His face is sharper. Maybe just because he's way older. 
+
+    He's a bit taller than me but back in the days I was in his position. 
+
+    He was always so envious of my height and thought he would never get taller. 
+
+    If only he knew after years things would change and he'll look much more masculine than me. 
+
+    There are scratches on his knuckles. Tiny, but there are many of them. 
+
+    It gives an impression they are fully scarlet and cyan at the same time. 
+
+    Even bruises on him look nice. 
+
+    And a cigarette between the fingers. He holds it firmly, and the white surface of it begins to fill with little dents. 
+    """
+
+
+    MH "Can I... Can I take a drag on? "
+
+
+    CRUSH "You smoke? "
+
+
+    MH "No but I want it now. "
+
+
+    CRUSH "Huh, good attempt. I strongly do not recommend it."
+
+    menu:
+        "To insist.":
+            $ relationShipCRUSH += 1
+
+            MH "I insist. If you don't give me I'll ask for a cigarette from these people inside. "
+
+            CRUSH "Wow, what a spirit. "
+
+            CRUSH "Okay, you persuaded me. "
+
+            """
+            He gave me his cigarette tenderly touching my fingers for a second. 
+
+            Huh. It wasn't hard to talk him into that. 
+
+            I finally took a drag on. 
+
+            [CRUSH] laughs when I cough like hell. 
+
+            It's... bad. 
+
+            He looked so ethereal doing this even if in my own mouth it feels like somebody pissed here. 
+
+            I gave the cigarette away as fast as I took it. 
+            """
+
+            CRUSH "I appreciate your try. But still don't do this anymore. "
+
+            MH "It's so gross in my mouth I cannot bicker. Okay, I got you. "
+
+            CRUSH "Good boy. "
+
+            """
+            There was nothing special in what he had said but I felt that my cheeks flushed. 
+
+            Hell, this is awkward. But... 
+
+            Cool.
+            """
+
+        "To agree.":
+            MH "Fine. I got you. "
+
+            "[CRUSH] didn't answer. He only quietly snorted but I ain't got an idea why."
+
+    CRUSH "Let's get back to the inside. I wanna have a drink. "
+
+    """
+    I silently follow him. 
+
+    When we appear in the kitchen I suddenly feel like the hot air is burning my skin. We spent too much time outside and now I just want to stay here. With him. 
+
+    He searches for a glass while I walk around looking for [MHBFH]. 
+
+    Just to check on him, of course. 
+
+    We never split up when we go anywhere with him and [MHBFP]. Especially with [MHBFP]. 
+
+    Today is an exception, though. 
+
+    The reality kinda strikes me. 
+
+    He's snogging with [NERD_GIRL] on a couch where I was sitting before. 
+
+    But... What about his girlfriend? 
+    """
+
+    CRUSH "You see, don't worry. She will always find somebody else. "
+
+    MH "I know but... "
+
+    CRUSH "But what? "
+
+    MH "Nothing, man, I was just thinking. "
+
+    "He shrugged his shoulders."
     return
 
 
