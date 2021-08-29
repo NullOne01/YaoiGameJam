@@ -1,34 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 1509, in script
-    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
-KeyError: u'CHEMISTRY_TEACHER'
+  File "renpy/common/00keymap.rpy", line 463, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 463, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 482, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+RuntimeError: maximum recursion depth exceeded while calling a Python object
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 1509, in script
-    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
-  File "renpy/ast.py", line 715, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1206, in __call__
-    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
-  File "renpy/character.py", line 1125, in prefix_suffix
-    return (sub(prefix) + sub(body) + sub(suffix))
-  File "renpy/character.py", line 1105, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "renpy/substitutions.py", line 270, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'CHEMISTRY_TEACHER'
+  File "renpy/common/00keymap.rpy", line 463, in script
+    python hide:
+  File "/Users/nullone/Desktop/renpy-7.4.6-sdk/renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/nullone/Desktop/renpy-7.4.6-sdk/renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 463, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 482, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+  File "/Users/nullone/Desktop/renpy-7.4.6-sdk/renpy/loadsave.py", line 415, in save
+    reraise(t, e, tb)
+  File "/Users/nullone/Desktop/renpy-7.4.6-sdk/renpy/loadsave.py", line 401, in save
+    dump((roots, renpy.game.log), logf)
+  File "/Users/nullone/Desktop/renpy-7.4.6-sdk/renpy/loadsave.py", line 49, in dump
+    cPickle.dump(o, f, cPickle.HIGHEST_PROTOCOL)
+RuntimeError: maximum recursion depth exceeded while calling a Python object
 
-Windows-10-10.0.19041
+Darwin-20.6.0-x86_64-i386-64bit
 Ren'Py 7.4.6.1693
 YaoiGameJam 1.0
-Sat Aug 28 03:47:46 2021
+Sun Aug 29 12:31:27 2021

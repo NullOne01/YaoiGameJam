@@ -33,9 +33,9 @@ label start:
     "Start of the game. Player name input. "
 label sequence1:
     # at school
-    scene bg street1
+    scene classroom chemistry 1
 
-    show semyon neutral
+    show semyon normal
     MHBFP "Hey, look."
 
     "[MHBFP] shoved me in the shoulder. The dim outline of the view from the window was replaced by the crunching sound of the opening class door."
@@ -144,6 +144,8 @@ label sequence1:
 
 label sequence2:
     # chat should be here.
+    scene laptop 1
+    "Chatroom"
 
     MHBFP "you guys decided that not showing up in class without me is a great idea." 
 
@@ -235,6 +237,8 @@ label sequence2:
     MH "lmao fuck off"
 
 label sequence3:
+    scene living room 2
+
     """
     This day was so surreal. I don't know why, but everything feels like a total mess. we got [MHBFP] furious about [CRUSH] and [MHBFH]... as always.
 
@@ -258,6 +262,8 @@ label sequence3:
     """
 
 label sequence4:
+    scene school hall 1
+
     MHBFH "Have you seen [MHBFP] yet? He wasn't at school and he wasn't replying to my messages."
 
     MH "Seems like he's sick. We gotta visit him if he's not replying, but not now. "
@@ -362,7 +368,11 @@ label sequence4:
     I still don't know what university or profession I'll enroll in after exams, but I know the only thing — no chemistry. At all. 
 
     Anyway, but now there's only it. Fine, just breathe. 
+    """
 
+    scene classroom chemistry 1
+
+    """
     Nothing will confuse you, [MH]. Breathe in, breathe out. You are calm. 
 
     What? 
@@ -589,6 +599,8 @@ label sequence4:
             I don't think I need to show it to [CRUSH]. I'll think about this later, I suppose. Or I won't.
             """
 label sequence5:
+    scene school hall 1
+
     """
     I went out of the class, tightly gripping the backpack.
 
@@ -804,6 +816,8 @@ label sequence5:
             Hope [TF] won't overload me with information today.
             """
 label sequence6:
+    scene classroom literature 1
+
     """
     The classroom was empty. Only the golden touches of afternoon light were on the blue wall. Posters, posters, photos... [TF] really likes this place. 
 
@@ -931,6 +945,8 @@ label sequence6:
     """
 
 label sequence7:
+    scene living room 2
+
     """
     I spent the whole evening thinking about my poem for the contest. And I haven't written a single line. 
 
@@ -1044,6 +1060,8 @@ label sequence7:
         And I am worried.
         """
 
+    scene bg street 1
+
     """
     The weather isn't that nice, to be honest. Only low greyish cumulus and fresh cool wind that runs around my ankles. 
 
@@ -1058,7 +1076,11 @@ label sequence7:
     We're the same age but I acted like a real adult. I took him and we went to his mom to disinfect the wound. 
 
     I didn't remember that but his mum told me I tried to calm [MHBFP] down by telling him jokes and fairy tales about dwarfs. 
+    """
 
+    scene entrance MHBFP
+
+    """
     I'm here. Two knocks and I hear the sound of the door being opened. 
 
     He's in a stretched T-shirt with stains and his face looks like... he cried. 
@@ -1088,6 +1110,8 @@ label sequence7:
         """
 
         MHBFP "Thank you... Come in. I'll put the kettle on. "
+
+        scene living room 1
 
         """
         It always smells like this here. Like... old newspapers, aloe, pastry. And something undetectable but in general it feels cozy and warm. 
@@ -1226,6 +1250,8 @@ label sequence7:
         "He's right. I need to go home before I break this fucking door to hell."
 
 label sequence8:
+    scene school hall 1
+
     """
     On the next day [MHBFP] didn't show up at school. I've decided not to bother him. 
 
@@ -1353,6 +1379,8 @@ label sequence8:
     """
 
 label sequence9:
+    scene bg street 2
+    
     """
     It seemed too cold when I went outside wearing only some skinny jeans but [MHBFH] was already here. I got no chance to change and at the same time I was too tired to do that. 
 
@@ -1419,7 +1447,11 @@ label sequence9:
     [MHBFH] doesn't hear my depressive thoughts and opens the dark scarlet door. 
 
     It's not closed? Seems like they're fearless. 
+    """
 
+    scene party 1
+
+    """
     The first things I notice are amber light and cigarette smoke. Everywhere. And five of like six persons. 
 
     [MHBFH] goes deeper into the flat but I stay to explore it a bit. 
@@ -1596,10 +1628,11 @@ label sequence9:
     Please, [NERD_GIRL], go out of my head. It hurts like hell. 
 
     I don't notice anyone around... There's just a whole mess in my mind. 
-
-    I noticed somebody on the balcony for too late. And I hold my breath. 
     """
 
+    scene party balcony
+
+    "I noticed somebody on the balcony for too late. And I hold my breath. "
 
     MH "[CRUSH]? "
 
@@ -1892,6 +1925,8 @@ label sequence9:
             "[CRUSH] didn't answer. He only quietly snorted but I ain't got an idea why."
 
     CRUSH "Let's get back to the inside. I wanna have a drink. "
+
+    scene party 1
 
     """
     I silently follow him. 
