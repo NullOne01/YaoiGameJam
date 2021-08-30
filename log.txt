@@ -1,41 +1,23 @@
-Sat Aug 28 03:46:54 2021
+Mon Aug 30 23:38:26 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.6.1693
  
 
 Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.38s
-Loading save slot metadata. took 0.03s
+Loader init took 0.18s
+Loading error handling took 0.05s
+Loading script took 0.51s
+Loading save slot metadata. took 1.01s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
+
+File "game/script.rpy", line 2157: end of line expected.
+    MH ""We"? "
+         ^
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.12s
+Interface start took 0.55s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -47,11 +29,57 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 1.7459359169s
+Total time until interface ready: 2.80459403992s
+Resetting cache.
+Bootstrap to the start of init.init took 28.79s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.36s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.21s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 465.89'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 30.2506000996s
 
 Full traceback:
-  File "game/script.rpy", line 1509, in script
-    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
+  File "game/script.rpy", line 2103, in script
+    MH "[BULLY_NAME] hit you?! "
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1417, in say
@@ -68,18 +96,26 @@ Full traceback:
   File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 585, in _vformat
   File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 646, in get_field
   File "/home/tom/ab/renpy-build/tmp/install.android-x86_64/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'CHEMISTRY_TEACHER'
+KeyError: u'BULLY_NAME'
 
 While running game code:
-  File "game/script.rpy", line 1509, in script
-    NERD_GIRL "Kids in the kitchen are from the 10th form, I don't really know them. But the guy in the red jacket is a son of [CHEMISTRY_TEACHER]. "
-KeyError: u'CHEMISTRY_TEACHER'
+  File "game/script.rpy", line 2103, in script
+    MH "[BULLY_NAME] hit you?! "
+KeyError: u'BULLY_NAME'
+Traceback (most recent call last):
+  File "renpy/editor.py", line 101, in open
+    os.startfile(filename)  # @UndefinedVariable
+WindowsError: [Error 2] : '\\home\\tom\\ab\\renpy-build\\tmp\\install.android-x86_64\\lib\\python2.7\\string.py'
+Traceback (most recent call last):
+  File "renpy/editor.py", line 101, in open
+    os.startfile(filename)  # @UndefinedVariable
+WindowsError: [Error 2] : '\\home\\tom\\ab\\renpy-build\\tmp\\install.android-x86_64\\lib\\python2.7\\string.py'
 Resetting cache.
-Bootstrap to the start of init.init took 114.40s
+Bootstrap to the start of init.init took 156.19s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.25s
+Loading script took 0.30s
 Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -88,7 +124,60 @@ Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 465.89'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 157.338221073s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 893.19s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\adviv\\AppData\\Roaming/RenPy/backups\\YaoiGameJam':
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
@@ -104,10 +193,10 @@ Analyze screens took 0.01s
 Save screen analysis took 0.07s
 Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -119,11 +208,4 @@ Version: '4.6.0 NVIDIA 465.89'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Total time until interface ready: 115.483018875s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.08s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+Total time until interface ready: 894.354290009s

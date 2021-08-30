@@ -8,7 +8,7 @@
 # // - check in the future.
 
 
-define MH = Character("Main hero", image = "player")
+define MH = Character("[main_hero_name]", image = "player")
 # Main Hero Best Frider Pohui
 define MHBFP = Character("Semyon", image = "semyon")
 # Main Hero Best Frider Homophobe
@@ -16,13 +16,13 @@ define MHBFH = Character("Vladick", image = "vladick")
 
 define CRUSH = Character("Sergey", image = "sergey")
 
-define BULLY_MAIN = Character("Bully main")
-define BULLY_SECOND = Character("Bully second")
-define BULLY_TARGET1 = Character("Bully target 1")
+define BULLY_MAIN = Character("Ilya")
+define BULLY_SECOND = Character("Nikita")
+define BULLY_TARGET1 = Character("Arkadiy")
 
 define NERD_GIRL = Character("Angelina")
-define TF = Character("Teacher friend")
-define TEACHER_CHEMISTRY = Character("Chemistry teacher")
+define TF = Character("Anastasiya Sergeevna")
+define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna")
 
 # The game starts here.
 
@@ -30,7 +30,13 @@ label start:
     # Variables:
     $ relationShipMHBFP = 0
     $ relationShipCRUSH = 0
-    "Start of the game. Player name input. "
+    
+    python:
+        main_hero_name = renpy.input("What is your name?", length=32)
+        main_hero_name = main_hero_name.strip()
+
+        if not main_hero_name:
+            main_hero_name = "Alexander"
 label sequence1:
     # at school
     scene bg street1
@@ -1922,6 +1928,316 @@ label sequence9:
     MH "Nothing, man, I was just thinking. "
 
     "He shrugged his shoulders."
+
+label sequence10:
+    """
+    This Monday is rainy. 
+
+    The thin layer of snow disappeared as fast as it happened to show up. 
+
+    I still felt a bit of fatique from Saturday but I tried to get distracted and watched some stupid series yesterday. 
+
+    Like, these TV-shows with shitty actors and shitty scenarios where you just enjoy the madness happening on the screen. 
+
+    It really helps to take your mind off. 
+
+    Today I cannot do the same. 
+
+    I've already skipped many lessons in previous weeks so now I have to at least show up at school more. 
+
+    I come to the math class ten minutes before the lesson. 
+
+    Almost nobody there. 
+
+    Just some girls I don't really talk to. 
+
+    [MHBFH] will definitely be late but it's too strange for [MHBFP] not to come with me. 
+
+    There's much weird things he does now. Like... His behaviour is strange. 
+
+    Gradually the classroom begins to be filled with students. 
+
+    [CRUSH] doesn't come. 
+
+    As always, right? 
+
+    It's strange to think I thought he would come. 
+
+    Why? Because we talked drunk at the party on Saturday? 
+
+    Jeez, I go nuts. 
+
+    [MHBFH] comes right before the bell. He shines like a dumbass and runs to me with a wide smile like he had won a million dollars a minute ago. 
+
+    Like I haven't seen him with [NERD_GIRL]. 
+    """
+
+    MHBFH "Whatsup man! Heck, I'm hungry. I overslept and didn't have breakfast. You have something? "
+
+    MH "Um... A gum? "
+
+    MHBFH "It will do. At least something. "
+
+    """
+    He takes a pink candy and the teacher enters. 
+
+    I try to listen to him about some integrals or whatever but I can't really understand. Or just to concentrate. 
+
+    [MHBFH] doesn't even try to and just starts playing games on his phone. 
+
+    I draw some tiny doodles on the margin of the maths notebook. 
+
+    Like [CRUSH] does. 
+
+    Our doodles became similar. The same strokes, the same figures. 
+
+    I find it inspiring to think about this. 
+
+    We're different but we are still somehow connected effortlessly. 
+
+    It may sound too dramatic or... Nevermind. 
+
+    It's weird. We're just friends from the past. 
+
+    We got a chance to become friends one more time. 
+
+    I barely not sleep in the class just because. 
+
+    Just because I don't wanna sleep but it's too boring I can't think of anything else. 
+
+    This torture ends rapidly. When the bell rings I fastly pack up and decide to wash my face in the bathroom. 
+
+    [MHBFH] didn't react so I got no dumb questions. 
+
+    When I was 12 I thought I'll be super cool when I become an eleventh-grader. 
+
+    But now if I see middle-schoolers in halls I understand I'm not the coolest one here. 
+
+    I scarcely put on my old hoodie in the mornings but they all dress up like there will be at least a national parade right now. 
+
+    Why are my thoughts so pathetic? Why do I think I'm worse if I do not dress up perfectly every day? 
+
+    When I come up the stairs I suddenly hear a strange sound. 
+
+    Like... A voice. 
+    """
+
+    MHBFP "[MH], wait! "
+
+    """
+    It's [MHBFP]! 
+
+    I turn around and see him. 
+
+    It looked like he had been crying. 
+
+    A lot. 
+
+    I'm unusually happy to see him, really. 
+
+    But... 
+
+    He is so tired and his red eyes look deep into mine. 
+    """
+
+    MH "Where have you been? What happened? "
+
+    MHBFP "I'm so... I'm so sorry. "
+
+    MHBFP "Please we gotta talk. "
+
+    MH "Okay, sure... "
+
+    """
+    I was confused and my voice sounded too disoriented but [MHBFP] only took my hand and pulled me after him. 
+
+    We went down to the lonely place under the stairs. 
+
+    Usually students who wanted to skip the classes spent their time here but then the headmaster knew about this place. 
+
+    And it was forgotten. 
+
+    But now it seemed to be needed. 
+    """
+
+    MH "So? "
+
+    """
+    [MHBFP] quietly sobbed. It was so heartbreaking but I literally couldn't move. 
+
+    My whole body freezed. I didn't know how to calm, how to comfort him. 
+
+    And I didn't even know if these things could help. 
+    """
+
+    MHBFP "I'm sorry... I wanted to say this earlier but... I couldn't... I thought it'll be over... "
+
+    MHBFP "This guy... [BULLY_MAIN]... He... He... "
+
+    """
+    [BULLY_MAIN]. It sounds so familiar. 
+
+    Oh gosh. [MHBFH] told us about him. 
+
+    That guy bullied a boy. Because? 
+
+    Shit. 
+
+    Because he was gay. 
+    """
+
+    MH "[MHBFP], tell me now. "
+
+    "I wanted to sound strict but [MHBFP] only sobbed more. "
+
+    MHBFP "He... He had seen me with a guy. We were in one chat room. And we went for a walk and... "
+
+    MH "And what? "
+
+    MHBFP "We kissed. [BULLY_MAIN] saw that. It was in the evening at the park and I thought there was nobody around... But... "
+
+    "Oh god. "
+
+    "I felt my eyes got round. "
+
+    MH "You... You kissed a guy? "
+
+    "[MHBFP] fastly looked away. "
+
+    MHBFP "Yes. So what? You gonna hit me too? "
+
+    MH "[BULLY_MAIN] hit you?! "
+
+    MHBFP "Yes. On the next day all this happened. He took me behind the school and said he had seen everything. And he... Kicked me in the stomach. "
+
+    """
+    He raised his shirt. 
+
+    Like a big galaxy, there was a round blue and yellow and green hematoma above the belly button. 
+
+    It looked so painful I almostly felt burning at the same place on my own body. 
+    """
+
+    MH "Oh my god... But when did it happen? "
+
+    MHBFP "Before the day of the chemistry test. "
+
+    MHBFP "After classes. "
+
+    MHBFP "I barely came home... Took some painkillers and fell asleep for 16 hours. "
+
+    MHBFP "Mum's on a business trip so nobody noticed. "
+
+    MHBFP "[BULLY_MAIN] said people like me don't deserve to live. "
+
+    MHBFP "And I thought... I... I thought he'll back off after that. "
+
+    MHBFP "And I came to school like nothing happened so nobody here will notice either. "
+
+    MHBFP "But after we dispersed with you and [MHBFH] I got a text... "
+
+    """
+    He gradually stopped crying and only gave me a phone with chat with [BULLY_MAIN]. 
+
+    I opened the picture he sent and saw a blurry photo of two people kissing almost in the dark. 
+
+    Nevertheless the face of [MHBFP] was seen clearly. 
+
+    And it was obvious the second person was a guy too because of his manly built. 
+
+    Under the message with this photo there was a text: 
+
+    \"You send me $100 or I send this to [CRUSH]\" 
+    """
+
+    MH "What? [CRUSH]? "
+
+    MHBFP "Yes. "
+
+    MH "What does he have to do with this? "
+
+    MHBFP "You don't know but... [CRUSH] also... He also bullies us. "
+
+    MHBFP "It's a secret. Only we know that. "
+
+    MH "\"We\"? "
+
+    MHBFP "Gays. There're not many of us but... Still. Like a couple of people in our school. "
+
+    MH "What a community. "
+
+    MH "Sorry. I mean... It's okay. "
+
+    MH "I won't say anything about what gender you love. "
+
+    MH "It's none of my business. "
+
+    MH "But I'm... I'm stunned about [CRUSH]. "
+
+    MH "I never knew that. "
+
+    MHBFP "And you couldn't... "
+
+    MHBFP "I- "
+
+    """
+    He starts crying again. 
+
+    Mostly when people cry I feel irritated. Like... Even if it's somebody who is close to me. 
+
+    But with [MHBFP] crying I feel awkward and... Useless. 
+    """
+
+    MH "I could talk with him. "
+
+    MH "To protect you. "
+
+    MH "So he won't touch you. "
+
+    MH "Do not send anything to [BULLY_MAIN]. Block him now. "
+
+    MHBFP "But... If I go to school? He'll easily find me here. "
+
+    MH "Stay at home, okay? Say you're ill, just make up some sort of story. I'll confirm it to teachers. "
+
+    MH "We'll do something. "
+
+    """
+    It felt like sadness just exploded in his big swollen red eyes. 
+
+    And it was replaced with something... Unusual. 
+
+    He never looked at me like that. 
+
+    It wasn't gratitude or appreciation. 
+
+    It wasn't positive but at the same time there was nothing negative. 
+
+    It was a fully new emotion coming into existence in his dark pupils. 
+    """
+
+    MHBFP "I'm sorry I did this all to you. Sorry for not sharing. I felt so lonely. "
+
+    MHBFP "Like everyone left me in a moment. "
+
+    """
+    I stood still, blankly staring into his face. 
+
+    But he moved. 
+
+    It was as fast as the flight of a butterfly. 
+
+    He leaned on me and clumsily kissed my lips. 
+
+    I only felt a warmness, some diluted salt from hot tears and a velvety sense. 
+
+    It wasn't a real kiss. 
+
+    More like an embarrassing touch of a lost teen. 
+
+    He ran away and didn't look back.
+    """
+
     return
 
 
