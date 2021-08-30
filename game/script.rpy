@@ -27,12 +27,15 @@ define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna")
 # The game starts here.
 
 label start:
-    # Variables:
+    # Global variables:
     $ relationShipMHBFP = 0
     $ relationShipCRUSH = 0
 
+    queue music ["audio/background_music1.mp3", "audio/background_music2.mp3"]
+
+    # player input name
     python:
-        main_hero_name = renpy.input("What is your name?", length=32)
+        main_hero_name = renpy.input("Choose a name for your character", length=32)
         main_hero_name = main_hero_name.strip()
 
         if not main_hero_name:
@@ -130,11 +133,11 @@ label sequence1:
     It should be Katya, right. So, he tells us even what we don't wanna hear, huh. 
 
     I want something like this too, but I'm too scared and lazy for some actions. Maybe I can fight myself?... 
-
-    //sound of the bell
-
-    [MHBFP] stands up fastly and starts to get his stuff. It's weird. He's usually very slow.
     """
+
+    play sound "audio/bell.mp3"
+
+    "[MHBFP] stands up fastly and starts to get his stuff. It's weird. He's usually very slow."
 
     MH "Hey, um?.."
 
@@ -391,33 +394,22 @@ label sequence4:
 
     Like... [MHBFP] hates [CRUSH]. I don't know why but it seems like betrayal that I didn't tell him about that. 
 
-
     Happily, there's some vacant desks at the very end of the classroom. I guess if I sit here, I can at least text [MHBFP]. 
 
-
     Maybe to cheat also. I haven't said this. 
-
-
-    //*some sitting sound lol?? idk he takes place*
-
 
     Okay, now I can write to [MHBFP]. So... 
     """
 
     TEACHER_CHEMISTRY "[MH], please, pass me your phone and sit somewhere closer... Here. "
 
-
     "Oh shit, shit, shit. Fuck. She pointed her finger at the desk near the window. Oh my fucking god. It's [CRUSH] at it." 
-
 
     MH "I must sit here? With [CRUSH]? "
 
-
     "The teacher's blankly staring at me like she doesn't understand. Stupid bitch." 
 
-
     TEACHER_CHEMISTRY "Yes, you must sit here. Pass me your phone. "
-
 
     """
     God, I didn't even text a single letter. Ok, take it, Miss Shark. 
