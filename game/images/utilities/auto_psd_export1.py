@@ -42,6 +42,7 @@ def resize_canvas(old_image, new_image_path="save.jpg",
     newImage = Image.new(mode, (canvas_width, canvas_height), new_background)
     newImage.paste(im, (x1, y1, x1 + old_width, y1 + old_height))
     newImage = newImage.resize((1280, 720))
+    newImage = newImage.crop((320, 0, 960, 720))
     newImage.save(new_image_path)
 
 def process_psd(fileName):
