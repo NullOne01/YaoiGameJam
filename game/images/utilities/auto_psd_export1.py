@@ -73,7 +73,6 @@ def main():
         for finalPsdName in os.listdir(newFileName):
             if (finalPsdName.endswith(".psd")):
                 process_psd(newFileName + "/" + finalPsdName)
-                return
 
 if __name__ == '__main__':
     main()
