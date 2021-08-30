@@ -30,7 +30,7 @@ label start:
     # Variables:
     $ relationShipMHBFP = 0
     $ relationShipCRUSH = 0
-    
+
     python:
         main_hero_name = renpy.input("What is your name?", length=32)
         main_hero_name = main_hero_name.strip()
@@ -150,7 +150,7 @@ label sequence1:
 
 label sequence2:
     # chat should be here.
-    scene laptop 1
+    scene chatting 1
     "Chatroom"
 
     MHBFP "you guys decided that not showing up in class without me is a great idea." 
@@ -1084,7 +1084,7 @@ label sequence7:
     I didn't remember that but his mum told me I tried to calm [MHBFP] down by telling him jokes and fairy tales about dwarfs. 
     """
 
-    scene entrance MHBFP
+    scene entrance 1
 
     """
     I'm here. Two knocks and I hear the sound of the door being opened. 
