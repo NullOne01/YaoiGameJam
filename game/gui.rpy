@@ -9,8 +9,7 @@ init offset = -2
 ## Calling gui.init resets the styles to sensible default values, and sets the
 ## width and height of the game.
 init python:
-    gui.init(1680, 920)
-# + 200
+    gui.init(1280, 720)
 
 
 ################################################################################
