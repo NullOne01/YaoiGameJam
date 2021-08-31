@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("YaoiGameJam")
+define config.name = _("Every Ending Is A New Beginning")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "YaoiGameJam"
+define build.name = "EveryEndingNewBeginning"
 
 
 ## Sounds and music ############################################################
@@ -142,7 +142,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "YaoiGameJam-1625933779"
+define config.save_directory = "EveryEndingNewBeginning-1625933779"
 
 
 ## Icon ########################################################################

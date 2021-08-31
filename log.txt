@@ -1,9 +1,0 @@
-Tue Aug 31 00:57:59 2021
-Windows-10-10.0.19041
-Ren'Py 7.4.6.1693
- 
-
-Bootstrap to the start of init.init took 0.09s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.03s

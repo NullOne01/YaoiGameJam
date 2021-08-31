@@ -2,16 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/script.rpy", line 2157: end of line expected.
-    MH ""We"? "
-         ^
+File "game/script.rpy", line 1495: choice menuitem expects a non-empty block.
+    "No.":
+          ^
 
 Ren'Py Version: Ren'Py 7.4.6.1693
-Mon Aug 30 23:38:28 2021
-=======
-File "game/script.rpy", line 1384: indentation mismatch.
-
-Ren'Py Version: Ren'Py 7.4.6.1693
-Sun Aug 29 12:45:25 2021
->>>>>>> 4d7cff97dcc8faecff46898af4ad1489156a7a56
+Tue Aug 31 04:57:48 2021

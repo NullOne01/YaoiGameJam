@@ -8,7 +8,7 @@
 # // - check in the future.
 
 
-define MH = Character("[main_hero_name]", image = "player")
+define MH = Character("[main_hero_name]", image = "mainhero")
 # Main Hero Best Frider Pohui
 define MHBFP = Character("Semyon", image = "semyon")
 # Main Hero Best Frider Homophobe
@@ -20,9 +20,9 @@ define BULLY_MAIN = Character("Ilya")
 define BULLY_SECOND = Character("Nikita")
 define BULLY_TARGET1 = Character("Arkadiy")
 
-define NERD_GIRL = Character("Angelina")
-define TF = Character("Anastasiya Sergeevna")
-define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna")
+define NERD_GIRL = Character("Angelina", image = "angelina")
+define TF = Character("Anastasiya Sergeevna", image = "teacherfriend")
+define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna", image = "chemistryteacher")
 
 # The game starts here.
 
@@ -41,23 +41,27 @@ label start:
         if not main_hero_name:
             main_hero_name = "Alexander"
 label sequence1:
-    # at school
-    scene classroom chemistry 1
+    scene empty
+    "Week 1." 
+    "Wednesday. "
 
-    show semyon normal
+    # at school
+    scene classroom chemistry 1 with dissolve
+
+    show semyon smirk
     MHBFP "Hey, look."
 
     "[MHBFP] shoved me in the shoulder. The dim outline of the view from the window was replaced by the crunching sound of the opening class door."
-    
-    hide semyon
 
-    show semyon neutral at left 
-    with move
+    show semyon normal at left with move
 
-    show sergey neutral at center
+    show sergey normal at center
 
     "On the threshold of a chemistry class stands [CRUSH]. Weird. He looks like he was dragged along the rails for hours and then was kicked like hundreds of times."
     
+    hide sergey with dissolve
+    show semyon angry 1 at center with move
+
     MHBFP "What's that smell?"
     "[MHBFP] whispered, wrinkling his nose and turning away."
 
@@ -70,6 +74,9 @@ label sequence1:
     [CRUSH] knits his eyebrows and looks at her as if he doesn't understand what she's talking about.
     """
 
+    show semyon at left with move
+    show vladick normal at center with dissolve
+
     "[MHBFH] stretched to us from the back of his desk."
 
     MHBFH "Did he really come drunk to school? He bet someone?"
@@ -78,6 +85,9 @@ label sequence1:
 
     MHBFH "I can tell he lost his bet."
     "[MHBFH] chuckles and sits back down."
+
+    hide vladick with dissolve
+    show semyon at center with move
 
     """
     [MHBFP] looks tense for some reason. He keeps rolling the pencil in his hands, dabbing at the varnish with his fingers and leaving marks from the nails. Is it because of [CRUSH] appearance? 
@@ -103,9 +113,16 @@ label sequence1:
 
     MHBFP "All right."
 
+    show vladick normal at right with dissolve
+
     """
     I turn around. [MHBFH] 's looking at us intently, apparently also feeling the tension. He purses his lips and looks down at the notebook too. 
+    """
 
+    hide vladick with dissolve
+    hide semyon with dissolve
+
+    """
     I even forgot that we're in class. 
 
     The teacher has already kicked [CRUSH] out and returned to her unshakable hypostasis of the great master. Bruh. I hate chemistry. 
@@ -137,23 +154,36 @@ label sequence1:
 
     play sound "audio/bell.mp3"
 
+    show semyon angry 1 with dissolve
+
     "[MHBFP] stands up fastly and starts to get his stuff. It's weird. He's usually very slow."
 
     MH "Hey, um?.."
 
     MHBFP "I need to go to the bathroom, sorry. Feel bad. See you at biology, maybe."
 
+    hide semyon with dissolve
+
     "Wowser. Maybe he's about to throw up, lol. At least [MHBFH] is here."
+
+    show vladick normal with dissolve
 
     MHBFH "[MHBFP] is not okay."
 
+    show vladick smile 2
+
     "[MHBFH] chuckles and puts on his backpack. The green one. With a panda pendant. I bet his girlfriend bought that for him."
+
+    show vladick normal
 
     MHBFH "I'm dying to eat something. Wanna visit Katya's class and steal her lunch? Of course you do..."
 
 label sequence2:
+    scene empty with dissolve
+    "Wednesday. Evening."
+
     # chat should be here.
-    scene chatting 1
+    scene chatting 1 with dissolve
     "Chatroom"
 
     MHBFP "you guys decided that not showing up in class without me is a great idea." 
@@ -246,7 +276,7 @@ label sequence2:
     MH "lmao fuck off"
 
 label sequence3:
-    scene living room 2
+    scene living room 2 with dissolve
 
     """
     This day was so surreal. I don't know why, but everything feels like a total mess. we got [MHBFP] furious about [CRUSH] and [MHBFH]... as always.
@@ -269,13 +299,19 @@ label sequence3:
 
     Should I do my homework now then?
     """
-
 label sequence4:
-    scene school hall 1
+    scene empty with dissolve
+    "Thursday."
+
+    scene school hall 1 with dissolve
+
+    show vladick normal with dissolve
 
     MHBFH "Have you seen [MHBFP] yet? He wasn't at school and he wasn't replying to my messages."
 
     MH "Seems like he's sick. We gotta visit him if he's not replying, but not now. "
+
+    show vladick smirk
 
     MHBFH "Too busy with getting ready for the chemistry test, huh? I've never thought you're a nerd. "
 
@@ -317,21 +353,25 @@ label sequence4:
 
     MH "Okay, good luck then. Say her hello for me. "
 
+    hide vladick with dissolve
 
     "[MHBFH] fastly went away. It seems like the only two things he cares about are Katya and his phone. Also, maybe, being annoying. Can't imagine being that concentrated on somebody else. It must be so utterly exhausting and..."
 
 
     MHBFP "Hey! [MH]! You're here! "
-
+    # TODO Should be out of breath and with bags under the eyes
+    show semyon laugh
 
     "He looked so out of breath and red. Oh god."
 
+    show semyon normal
 
     MHBFP "I hurried here as fast as I could. Uh. I need a minute... "
 
 
     MH "Wh-where have you been? "
 
+    show semyon smile 3
 
     MHBFP "You'll be surprised, but I just overslept. I only woke up twenty minutes ago and almost ran like the wind. "
 
@@ -343,13 +383,19 @@ label sequence4:
 
             MH "[MHBFP], did you even sleep yesterday? You look tired. Did anything happen?"
 
+            show semyon smile 1
+
             MHBFP "Uh... That's tough. I will tell you later, okay? I need to concentrate on the test now."
 
             MH "Please, tell me now, is everything alright?"
 
+            show semyon smile 2
+
             MHBFP "Y-y-yeah. Yep. Just fine. Really, don't think about this."
 
             MH "You also didn't answer [MHBFH] 's messages. We were worried."
+
+            show semyon smile 1
 
             MHBFP "Oh, sorry... I didn't check my phone. God, I hate this day."
 
@@ -361,13 +407,18 @@ label sequence4:
 
             MHBFP "..."
 
+            show semyon smile 3
+
             MHBFP "Nothing. Sorry, uh, I need to read."
 
             MH "Okay."
 
+            hide semyon with dissolve
+
             "Now think about chemistry. There's only half an hour left. "
         "Do not ask.":
             "No, it's none of my business. I need to let him get ready for the test and all the extra stuff will be figured out soon. Now think about chemistry. There's only half an hour left. "
+            hide semyon with dissolve
 
     """
     It seemed like I didn't realize the time. Holy shit, there's still so much to revise left... Hope I can get through this hell soon. 
@@ -401,6 +452,8 @@ label sequence4:
     Okay, now I can write to [MHBFP]. So... 
     """
 
+    show chemistryteacher angry with dissolve
+
     TEACHER_CHEMISTRY "[MH], please, pass me your phone and sit somewhere closer... Here. "
 
     "Oh shit, shit, shit. Fuck. She pointed her finger at the desk near the window. Oh my fucking god. It's [CRUSH] at it." 
@@ -413,9 +466,17 @@ label sequence4:
 
     """
     God, I didn't even text a single letter. Ok, take it, Miss Shark. 
+    """
 
+    hide chemistryteacher with dissolve
+
+    """
     There's a much bigger problem. [CRUSH]. 
+    """
+    
+    show sergey normal with dissolve
 
+    """
     He only looked at me for a second when I took a seat. Like I'm not even there. Okay. I'm just a good decent boy. Just need to greet him. 
     """
 
@@ -434,15 +495,18 @@ label sequence4:
 
     MH "How? They took away our phones. You have the second one? "
 
+    show sergey smile 1
 
     "[CRUSH] mildly smiled. "
 
 
     CRUSH "Look back. "
 
+    show angelina smile at right with dissolve
 
     "There's some girl sitting at the desk behind ours." 
 
+    hide angelina with dissolve
 
     MH "So? "
 
@@ -461,8 +525,11 @@ label sequence4:
 
     CRUSH "Hah, that's nice too. "
 
+    show chemistryteacher angry at left with dissolve
 
     TEACHER_CHEMISTRY "Keep silent, [MH], [CRUSH]. And take your test papers. "
+
+    hide chemistryteacher with dissolve
 
     """
     When I took it, it seemed like the end of the world. Ten tasks and I can solve only two or three. I'm not sure even about these two or three. 
@@ -479,6 +546,7 @@ label sequence4:
         "Why don't you write anything?":
             MH "Why don't you write anything? "
 
+            show sergey normal
 
             "[CRUSH] glanced at me for a couple of seconds and snorted. "
 
@@ -499,14 +567,17 @@ label sequence4:
 
             """
             [CRUSH] took my test and turned back to the girl. I looked around to see if teachers notice [CRUSH] 's behaviour, but happily no one gave a shit. 
+            """
 
-            [NERD_GIRL] is really pretty... Even though she seems to be a nerd. There's something strange in some details about her, like... Her earrings are like they were chosen by some insane kids. Or her pink shirt with mushrooms. Sounds weird. 
-            
+            show angelina smile at right with dissolve
+
+            """
             It seems she doesn't fit in [CRUSH] 's preferences in girls. 
             """
 
             CRUSH "Fine. She'll solve yours too. "
 
+            hide angelina with dissolve
 
             MH "Thank you so much... Really. I couldn't do without you. "
 
@@ -549,7 +620,11 @@ label sequence4:
 
             MH "You have a talent for drawing. "
 
+            show sergey smile 2
+
             CRUSH "Um... That's just stupid doodles, but thank you. I like drawing. Also... why don't you do your test? "
+
+            show sergey normal
 
             MH "I suck at chemistry, to be honest. Barely did the first two tasks. "
 
@@ -562,14 +637,17 @@ label sequence4:
 
             """
             [CRUSH] took my test and turned back to the girl. I looked around to see if teachers notice [CRUSH] 's behaviour, but happily no one gave a shit. 
+            """
 
+            show angelina smile at right with dissolve
 
-            [NERD_GIRL] is really pretty... Even though she seems to be a nerd. There's something strange in some details about her, like... Her earrings are like they were chosen by some insane kids. Or her pink shirt with mushrooms. Sounds weird. 
-            
-            It seems she doesn't fit in [CRUSH] 's preferences in girls.
+            """
+            It seems she doesn't fit in [CRUSH] 's preferences in girls. 
             """
 
             CRUSH "Fine. She'll solve yours too. "
+
+            hide angelina with dissolve
 
             MH "Thank you so much... Really. I couldn't do without you. "
 
@@ -597,7 +675,7 @@ label sequence4:
             I don't think I need to show it to [CRUSH]. I'll think about this later, I suppose. Or I won't.
             """
 label sequence5:
-    scene school hall 1
+    scene school hall 1 with dissolve
 
     """
     I went out of the class, tightly gripping the backpack.
@@ -619,6 +697,8 @@ label sequence5:
     Fuck. What time is it now? I need to find [MHBFP] and [MHBFH]. 
     """
 
+    show teacherfriend smile with dissolve
+
     TF "Oh, [MH], you here! Finally I've found you! "
 
 
@@ -630,12 +710,14 @@ label sequence5:
 
     MH "Uh... To be honest I don't think I'm able to write anything decent. I've never tried to. "
 
+    show teacherfriend smile 2
 
     TF "That's the thing! You just need to try. At least to try. You've participated in many contests in literature, you can write well, you're nice at reading poems out loud. Just give yourself a chance. "
 
 
     MH "But... "
 
+    show teacherfriend smile
 
     TF "Pretty please, [MH], just try, I will help you. "
 
@@ -645,8 +727,11 @@ label sequence5:
 
     MH "Okay. Fine. "
 
+    show teacherfriend smile 2
 
     TF "Oh, thank you. Come after the break, I'll show you the requirements. Don't forget! "
+
+    hide teacherfriend with dissolve
 
     """
     Aha. After the last class. Like I had nothing else to do. 
@@ -662,24 +747,25 @@ label sequence5:
     """
 
     MHBFH "Hey, [MH], why are you standing there? "
-
     
     "I shuddered. [MHBFH] 's voice is always so sonorous. Oh, he's with [MHBFP]! "
 
+    show vladick normal zorder 1 with dissolve
+    show semyon normal at right zorder 0 with dissolve 
 
     MH "Just went out of the classroom. "
 
+    show semyon smile 1
 
     MHBFP "With [TF]? Good try. We saw you "
 
-
     MH "Again. You little punk... "
-
 
     MHBFH "Jeez, guys. [MH], better tell us how was the test? I only did one task and copied from [MHBFP] 's sheet. He only did five tasks, unfortunately. "
 
-    MHBFP "And where's my thank you, ungrateful bitch? "
+    show semyon normal
 
+    MHBFP "And where's my thank you, ungrateful bitch? "
 
     MH "I cheated too. "
 
@@ -689,12 +775,14 @@ label sequence5:
 
     MH "Um... yeah, exactly. Not so pretty but anyway. "
 
+    show vladick smile 2
 
     MHBFH "Whooa! Finally! "
 
 
     MHBFP "You know her? How did you do it? Teacher's wasn't looking? "
 
+    show vladick smile 1
 
     MHBFH "Wait, now you should ask her out! "
 
@@ -716,9 +804,11 @@ label sequence5:
 
     MH "Yeah... And she left me her number on the sheet. "
 
+    show vladick surprised
 
     MHBFH "OH GOD. "
 
+    show vladick smile 1
 
     MHBFH "You have to go. I will die but I'll manage to make you go on a date with her. Even if she's not as pretty as you wish. You are given a chance to touch a girl, bro. "
 
@@ -756,12 +846,14 @@ label sequence5:
 
             MHBFP "That's so weird that girls are ready to do [CRUSH] 's test just to go on a date with him. He's not even THAT handsome. "
 
+            show vladick smile 2
 
             MHBFH "Don't lie, he is THAT handsome. You're just envious. "
 
 
             MHBFP "I'm not. He looks like an insane squirrel. "
 
+            show vladick smile 1
 
             MH "Gosh, guys. I need to go. [TF] is waiting for me. "
 
@@ -785,12 +877,14 @@ label sequence5:
 
             MHBFP "Really?.."
 
+            show vladick surprised
 
             MHBFH "Why haven't you told?! That's amazing news! Who's she? Does she study with us? "
 
 
             MH "Not now, [MHBFH]. I still haven't figured everything out. "
 
+            show vladick smile 1 with dissolve
 
             "[MHBFP] looks upset. That's because he knows I'm lying? How?"
 
@@ -806,6 +900,9 @@ label sequence5:
 
             MHBFP "Thanks, without me. Bye. "
 
+            hide vladick with dissolve
+            hide semyon with dissolve
+
             """
             He freaks me out.
 
@@ -814,7 +911,7 @@ label sequence5:
             Hope [TF] won't overload me with information today.
             """
 label sequence6:
-    scene classroom literature 1
+    scene classroom literature 1 with dissolve
 
     """
     The classroom was empty. Only the golden touches of afternoon light were on the blue wall. Posters, posters, photos... [TF] really likes this place. 
@@ -830,6 +927,7 @@ label sequence6:
     She looks so happy. Even in this stupid cap. Does she really enjoy this or... 
     """
 
+    show teacherfriend smile with dissolve
 
     TF "Oh, you're already here! I was at the headmaster. C'mon, take a seat. "
 
@@ -847,8 +945,9 @@ label sequence6:
 
     TF "No one wants to participate in things connected with art now. It was really hard to find even one person. I also went to the 10th grade and some girls wanted to attend the contest. "
 
+    show teacherfriend smile 2
     TF "I don't know if they still want to do it but... Let's just do what we can, right? "
-
+    show teacherfriend smile
 
     """
     She finally found what she wanted and it appeared to be her notebook. A real legend. She uses paper for notes, not apps for phone or anything like that. 
@@ -864,7 +963,9 @@ label sequence6:
 
     MH "Will there be places or winners? "
 
+    show teacherfriend smile 2
     TF "No. You'll anyway get the certificate of participation. Still we need to do our best, you know? "
+    show teacherfriend smile
 
     MH "Yeah, got it. "
 
@@ -894,7 +995,9 @@ label sequence6:
 
     "She stood up and went to the cabinet. Then a kettle and two pink mugs appeared on the table." 
 
+    show teacherfriend smile 2
     TF "A little cup of tea is always a nice decision, right? "
+    show teacherfriend smile
 
 
     """
@@ -921,10 +1024,11 @@ label sequence6:
     This softens me. May I just stay here for eternity? 
     """
 
-
     MH "Yeah... I need to understand that things have changed and they won't go back. Even if that's painful. "
 
+    show teacherfriend smile 2
     TF "Right! "
+    show teacherfriend smile
 
     TF "Pain will go away one day but you'll stay here. As they say, easy come easy go. Cookies? "
 
@@ -943,7 +1047,10 @@ label sequence6:
     """
 
 label sequence7:
-    scene living room 2
+    scene empty with dissolve
+    "Thursday. Evening."
+
+    scene living room 2 with dissolve
 
     """
     I spent the whole evening thinking about my poem for the contest. And I haven't written a single line. 
@@ -1058,7 +1165,7 @@ label sequence7:
         And I am worried.
         """
 
-    scene bg street 1
+    scene bg street 1 with dissolve
 
     """
     The weather isn't that nice, to be honest. Only low greyish cumulus and fresh cool wind that runs around my ankles. 
@@ -1076,11 +1183,15 @@ label sequence7:
     I didn't remember that but his mum told me I tried to calm [MHBFP] down by telling him jokes and fairy tales about dwarfs. 
     """
 
-    scene entrance 1
+    scene entrance 1 with dissolve
 
     """
     I'm here. Two knocks and I hear the sound of the door being opened. 
+    """
 
+    show semyon sad with dissolve
+
+    """
     He's in a stretched T-shirt with stains and his face looks like... he cried. 
     """
 
@@ -1118,6 +1229,8 @@ label sequence7:
 
         Okay, calm down. 
         """
+
+        show semyon normal with dissolve
 
         MH "[TF] made me participate in a new contest. Of poetry. "
 
@@ -1162,6 +1275,8 @@ label sequence7:
 
                 "His face tensed and [MHBFP] pursed his lips. "
 
+                show semyon angry 1
+
                 MHBFP "Stop this. For God's sake. "
 
                 MH "But... "
@@ -1179,6 +1294,8 @@ label sequence7:
             "Do not insist.":
                 $ relationShipMHBFP += 2
                 MH "Fine. I trust you. "
+
+                show semyon smile 1
 
                 "He tilted his head down but I still noticed the little smile. "
 
@@ -1204,9 +1321,13 @@ label sequence7:
 
                 MH "That's a part of my character. To be clumsy. Also lonely, pathetic, et cétéra. "
 
+                show semyon smile 3
+
                 "[MHBFP] giggled for a second and I felt... strange. "
 
                 MH "Why do you laugh? "
+
+                show semyon smile 1
 
                 MHBFP "You're so lost. Don't be tricked by the stigma they give you. "
 
@@ -1229,6 +1350,8 @@ label sequence7:
 
         MHBFP "Yeah, of course, I must. "
 
+        show semyon angry 1
+
         MHBFP "I do not owe you anything. Do you even hear yourself? You never cared. And now you come here and say I must do something. "
 
         MH "Okay, I'm sorry. I'm really sorry. I just want to help. That's why I'm here. "
@@ -1248,7 +1371,10 @@ label sequence7:
         "He's right. I need to go home before I break this fucking door to hell."
 
 label sequence8:
-    scene school hall 1
+    scene empty
+    "Friday. "
+
+    scene school hall 1 with dissolve
 
     """
     On the next day [MHBFP] didn't show up at school. I've decided not to bother him. 
@@ -1306,6 +1432,8 @@ label sequence8:
     And- 
     """
 
+    show sergey smile 1 with dissolve
+
     CRUSH "Howdy. What're you writing? "
 
     """
@@ -1318,9 +1446,13 @@ label sequence8:
     We collide with our hands for a couple of seconds and I automatically pull back mine. 
     """
 
+    show sergey smile 2
+
     CRUSH "You're so easy to scare. Um, sorry, by the way. "
 
     MH "Oh no, it's not your fault. Thanks. "
+
+    show sergey smile 1
 
     CRUSH "I hope [NERD_GIRL] didn't startle you with me asking for your number. "
 
@@ -1335,6 +1467,8 @@ label sequence8:
     MH "Okay... Let it be. "
 
     CRUSH "Alright then. Later. "
+
+    hide sergey with dissolve
 
     """
     He disappeared as fast as came into sight. Oh. 
@@ -1362,7 +1496,7 @@ label sequence8:
             "Yes.":
                 $ relationShipMHBFP -= 4
             "No.":
-                jump endingGoodMHBFP
+                "..."
 
     """
     However, that's not what I should worry about. 
@@ -1377,11 +1511,18 @@ label sequence8:
     """
 
 label sequence9:
-    scene bg street 2
+    scene empty
+    "Friday. Evening."
+
+    scene bg street 2 with dissolve
     
     """
     It seemed too cold when I went outside wearing only some skinny jeans but [MHBFH] was already here. I got no chance to change and at the same time I was too tired to do that. 
+    """
 
+    show vladick smile 1 with dissolve
+
+    """
     He was smiling and the warm orange light from the street lamp was making his blonde hair look like a tangerine. 
 
     Some tiny snowflakes are falling on my nose. 
@@ -1447,7 +1588,7 @@ label sequence9:
     It's not closed? Seems like they're fearless. 
     """
 
-    scene party 1
+    scene party 1 with dissolve
 
     """
     The first things I notice are amber light and cigarette smoke. Everywhere. And five of like six persons. 
@@ -1458,7 +1599,7 @@ label sequence9:
 
     I don't know who designed this flat but they certainly did an awful job. 
 
-    Like... who thought olive walls would go well with pinkish kitchen cabinets or a black couch? 
+    Like... who thought olive walls would go well with pinkish kitchen cabinets or a red couch? 
 
     I notice only stranger's faces here, they seem to be my age. And... drinking. 
 
@@ -1470,6 +1611,8 @@ label sequence9:
     "Somebody" "[MH]?" 
 
     "I fastly straightened up from examining my poor sneakers and it appeared that the voice was [NERD_GIRL]."
+
+    show angelina smile with dissolve
 
     NERD_GIRL "Oh, you're here! "
 
@@ -1491,6 +1634,7 @@ label sequence9:
 
     MH "Yeah. He loves it. His father's gift. "
 
+    show angelina smug
 
     NERD_GIRL "Jeez. "
 
@@ -1506,6 +1650,7 @@ label sequence9:
 
     NERD_GIRL "Yep, right. Sorry. "
 
+    show angelina smile
 
     "I only shrug my shoulders in answer. "
 
@@ -1552,6 +1697,8 @@ label sequence9:
 
     NERD_GIRL "Yes... Our literature teacher. You know her? "
 
+    show angelina smile 2
+
     MH "Surely. "
 
     MH "Yeah, she was my teacher for many years. "
@@ -1560,6 +1707,7 @@ label sequence9:
 
     MH "For sure... "
 
+    show angelina smile
 
     "She frowned for a second. "
 
@@ -1596,13 +1744,21 @@ label sequence9:
     She's kinda spicy. 
 
     I feel that when she leans closer and closer to my cheek. 
+    """
 
+    show angelina smug
+
+    """
     Holy shit. 
 
     She wants to kiss me. 
 
     I realise that three seconds before she does that. I move away heavily breathing. 
+    """
 
+    show angelina smile
+
+    """
     Her face doesn't reflect anything. Like she doesn't feel disappointment or shame because of her failed attempt. 
 
     I would. 
@@ -1628,12 +1784,13 @@ label sequence9:
     I don't notice anyone around... There's just a whole mess in my mind. 
     """
 
-    scene party balcony
+    scene party balcony with dissolve
 
     "I noticed somebody on the balcony for too late. And I hold my breath. "
 
     MH "[CRUSH]? "
 
+    show sergey normal with dissolve
 
     "He turns his head to me for a second. "
 
@@ -1802,6 +1959,8 @@ label sequence9:
 
     MH "And you just don't know what's on my mind! Maybe... maybe I have wanted her to ask me out. "
 
+    show sergey smile 1
+
     "[CRUSH] chuckled. "
 
     CRUSH "For real? "
@@ -1811,6 +1970,8 @@ label sequence9:
     CRUSH "It does. "
 
     CRUSH "There are much better girls than [NERD_GIRL]. If you haven't fallen in love with her already, of course. "
+
+    show sergey normal
 
     "I winced unconsciously."
 
@@ -1883,6 +2044,8 @@ label sequence9:
 
             MH "I insist. If you don't give me I'll ask for a cigarette from these people inside. "
 
+            show sergey smile 1
+
             CRUSH "Wow, what a spirit. "
 
             CRUSH "Okay, you persuaded me. "
@@ -1893,7 +2056,11 @@ label sequence9:
             Huh. It wasn't hard to talk him into that. 
 
             I finally took a drag on. 
+            """
 
+            show sergey smile 3
+
+            """
             [CRUSH] laughs when I cough like hell. 
 
             It's... bad. 
@@ -1903,7 +2070,9 @@ label sequence9:
             I gave the cigarette away as fast as I took it. 
             """
 
+            show sergey smile 2
             CRUSH "I appreciate your try. But still don't do this anymore. "
+            show sergey smile 1
 
             MH "It's so gross in my mouth I cannot bicker. Okay, I got you. "
 
@@ -1924,7 +2093,7 @@ label sequence9:
 
     CRUSH "Let's get back to the inside. I wanna have a drink. "
 
-    scene party 1
+    scene party 1 with dissolve
 
     """
     I silently follow him. 
@@ -1946,6 +2115,8 @@ label sequence9:
     But... What about his girlfriend? 
     """
 
+    show sergey normal with dissolve
+
     CRUSH "You see, don't worry. She will always find somebody else. "
 
     MH "I know but... "
@@ -1956,13 +2127,53 @@ label sequence9:
 
     "He shrugged his shoulders."
 
+    CRUSH "I told the guys in the kitchen to get lost and now we have a chance to sit in a warm place. "
+
+    MH "You're a bully. "
+
+    CRUSH "I just said and they left, it's not my fault. "
+
+    MH "Of course. Anyway, thanks. "
+
+    CRUSH "It's for us both. "
+
+    """
+    We come and [CRUSH] sits down at the table. 
+
+    I stay standing, leaning on the wall. We keep silent for a couple of seconds and [CRUSH] starts: 
+    """
+
+    CRUSH "If you don't like Angelina we can find you somebody else. I don't get why you're so sad if you've told you don't care bout her. "
+
+    """
+    I don't even think for a second and say okay. 
+
+    Like... Even though I don't want to find anyone. 
+
+    I'm not sad. 
+
+    I just... I don't know. 
+
+    Maybe the truth about his reason to leave me and end our friendship is too overwhelming. 
+
+    But I agree to find somebody new. 
+
+    Will it fill me from inside? Will it heal me?
+    """
+
 label sequence10:
+    scene empty with dissolve
+    "Week 2."
+    "Monday."
+
+    scene classroom chemistry 1 with dissolve
+
     """
     This Monday is rainy. 
 
     The thin layer of snow disappeared as fast as it happened to show up. 
 
-    I still felt a bit of fatique from Saturday but I tried to get distracted and watched some stupid series yesterday. 
+    I still felt a bit of fatique from Friday but I tried to get distracted and watched some stupid series yesterday. 
 
     Like, these TV-shows with shitty actors and shitty scenarios where you just enjoy the madness happening on the screen. 
 
@@ -1990,7 +2201,7 @@ label sequence10:
 
     It's strange to think I thought he would come. 
 
-    Why? Because we talked drunk at the party on Saturday? 
+    Why? Because we talked drunk at the party on Friday? 
 
     Jeez, I go nuts. 
 
@@ -1999,9 +2210,13 @@ label sequence10:
     Like I haven't seen him with [NERD_GIRL]. 
     """
 
+    show vladick smile 2 with dissolve
+
     MHBFH "Whatsup man! Heck, I'm hungry. I overslept and didn't have breakfast. You have something? "
 
     MH "Um... A gum? "
+
+    show vladick smile 1
 
     MHBFH "It will do. At least something. "
 
@@ -2011,7 +2226,11 @@ label sequence10:
     I try to listen to him about some integrals or whatever but I can't really understand. Or just to concentrate. 
 
     [MHBFH] doesn't even try to and just starts playing games on his phone. 
+    """
 
+    hide vladick with dissolve
+
+    """
     I draw some tiny doodles on the margin of the maths notebook. 
 
     Like [CRUSH] does. 
@@ -2033,7 +2252,13 @@ label sequence10:
     Just because I don't wanna sleep but it's too boring I can't think of anything else. 
 
     This torture ends rapidly. When the bell rings I fastly pack up and decide to wash my face in the bathroom. 
+    """
 
+    play sound "audio/bell.mp3"    
+
+    scene school hall 1 with dissolve
+
+    """
     [MHBFH] didn't react so I got no dumb questions. 
 
     When I was 12 I thought I'll be super cool when I become an eleventh-grader. 
@@ -2048,6 +2273,8 @@ label sequence10:
 
     Like... A voice. 
     """
+
+    show semyon sad with dissolve
 
     MHBFP "[MH], wait! "
 
@@ -2255,7 +2482,11 @@ label sequence10:
     It was as fast as the flight of a butterfly. 
 
     He leaned on me and clumsily kissed my lips. 
+    """
+    
+    hide semyon with dissolve
 
+    """
     I only felt a warmness, some diluted salt from hot tears and a velvety sense. 
 
     It wasn't a real kiss. 
@@ -2264,7 +2495,9 @@ label sequence10:
 
     He ran away and didn't look back.
     """
-
+label end:
+    scene empty with dissolve
+    "TO BE CONTINUED..."
     return
 
 
