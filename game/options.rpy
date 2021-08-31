@@ -30,6 +30,7 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+It's like being transparent. They don't notice you, you don't notice them. Life becomes a never ending saga of school and home, even if your only two friends try to lighten it up. However, what if one day everything changes and memories from the past come to life and strike you like a flash? What if your closest friend starts acting strange and suddenly pushes you away? It's time to figure everything out.
 """)
 
 

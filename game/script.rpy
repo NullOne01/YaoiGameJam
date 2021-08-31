@@ -8,21 +8,21 @@
 # // - check in the future.
 
 
-define MH = Character("[main_hero_name]", image = "mainhero")
+define MH = Character("[main_hero_name]", image = "mainhero", color = "#4a86e8")
 # Main Hero Best Frider Pohui
-define MHBFP = Character("Semyon", image = "semyon")
+define MHBFP = Character("Semyon", image = "semyon", color = "#019401")
 # Main Hero Best Frider Homophobe
-define MHBFH = Character("Vladick", image = "vladick")
+define MHBFH = Character("Vladick", image = "vladick", color = "#c53333")
 
-define CRUSH = Character("Sergey", image = "sergey")
+define CRUSH = Character("Sergey", image = "sergey", color = "#9900ff")
 
 define BULLY_MAIN = Character("Ilya")
 define BULLY_SECOND = Character("Nikita")
 define BULLY_TARGET1 = Character("Arkadiy")
 
-define NERD_GIRL = Character("Angelina", image = "angelina")
-define TF = Character("Anastasiya Sergeevna", image = "teacherfriend")
-define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna", image = "chemistryteacher")
+define NERD_GIRL = Character("Angelina", image = "angelina", color = "#45818e")
+define TF = Character("Anastasiya Sergeevna", image = "teacherfriend", color = "#93a1c4")
+define TEACHER_CHEMISTRY = Character("Lyudmila Alexandrovna", image = "chemistryteacher", color = "#c39e29")
 
 # The game starts here.
 
